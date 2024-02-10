@@ -1,0 +1,35 @@
+pip
+Flask
+flask_cors
+rdflib
+pandas
+numpy
+openai
+sqlalchemy
+rdfizer
+pyshacl
+python-dotenv
+spacy
+fastcoref
+owlready2
+sentence-transformers
+thefuzz
+
+
+# somehow needed from openai
+matplotlib
+plotly
+scipy
+scikit-learn
+tenacity
+tiktoken
+
+# needed for connecting to the database
+psycopg2-binary
+
+# needed for text to triples generation
+openai
+thefuzz
+pyOpenSSL
+
+Werkzeug==2.2.2

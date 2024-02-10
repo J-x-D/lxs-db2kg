@@ -1,0 +1,277 @@
+@prefix ns1: <http://www.w3.org/ns/r2rml#> .
+@prefix ns2: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ns3: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+
+<http://example.com/base/#supplier_auctions_TriplesMap> a ns1:TriplesMap ;
+    ns2:logicalSource [ ns2:source <http://example.com/base/#DB_source> ;
+            ns1:sqlVersion ns1:SQL2008 ;
+            ns1:tableName "supplier.auctions" ] ;
+    ns1:predicateObjectMap [ ns1:objectMap [ ns2:reference "material_group" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasMaterialGroup> ],
+        [ ns1:objectMap [ ns2:reference "end_date" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasEndDate> ],
+        [ ns1:objectMap [ ns2:reference "region" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasRegion> ],
+        [ ns1:objectMap [ ns2:reference "title" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasTitle> ],
+        [ ns1:objectMap [ ns2:reference "currency" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasCurrency> ],
+        [ ns1:objectMap [ ns2:reference "status" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasAuctionStatus> ],
+        [ ns1:objectMap [ ns2:reference "category" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasCategory> ],
+        [ ns1:objectMap [ ns2:reference "reference_price" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasReferencePrice> ],
+        [ ns1:objectMap [ ns2:reference "start_date" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasStartDate> ],
+        [ ns1:objectMap [ ns1:joinCondition [ ns1:child "owner" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#supplier_employee_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasOwner> ],
+        [ ns1:objectMap [ ns1:joinCondition [ ns1:child "project_id" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#supplier_projects_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasProject> ] ;
+    ns1:subjectMap [ ns1:class <http://localhost:8001/supplier.owl#Auctions> ;
+            ns1:template "http://example.com/base/supplier#auctions/{id}" ] .
+
+<http://example.com/base/#supplier_contract_TriplesMap> a ns1:TriplesMap ;
+    ns2:logicalSource [ ns2:source <http://example.com/base/#DB_source> ;
+            ns1:sqlVersion ns1:SQL2008 ;
+            ns1:tableName "supplier.contract" ] ;
+    ns1:predicateObjectMap [ ns1:objectMap [ ns2:reference "validity_start" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasValidityStart> ],
+        [ ns1:objectMap [ ns2:reference "validity_end" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasValidityEnd> ],
+        [ ns1:objectMap [ ns1:joinCondition [ ns1:child "supplier_id" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#supplier_supplier_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasSupplier> ],
+        [ ns1:objectMap [ ns2:reference "name" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasContractName> ],
+        [ ns1:objectMap [ ns2:reference "type" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasContractType> ],
+        [ ns1:objectMap [ ns2:reference "status" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasContractStatus> ],
+        [ ns1:objectMap [ ns2:reference "summary" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasContractSummary> ] ;
+    ns1:subjectMap [ ns1:class <http://localhost:8001/supplier.owlContract> ;
+            ns1:template "http://example.com/base/supplier#contract/{id}" ] .
+
+<http://example.com/base/#supplier_rfqs_TriplesMap> a ns1:TriplesMap ;
+    ns2:logicalSource [ ns2:source <http://example.com/base/#DB_source> ;
+            ns1:sqlVersion ns1:SQL2008 ;
+            ns1:tableName "supplier.rfqs" ] ;
+    ns1:predicateObjectMap [ ns1:objectMap [ ns2:reference "currency" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasCurrency> ],
+        [ ns1:objectMap [ ns2:reference "close_date" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasCloseDate> ],
+        [ ns1:objectMap [ ns2:reference "involved_suppliers" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasInvolvedSuppliers> ],
+        [ ns1:objectMap [ ns2:reference "responded_suppliers" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasRespondedSuppliers> ],
+        [ ns1:objectMap [ ns1:joinCondition [ ns1:child "owner" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#supplier_employee_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasOwner> ],
+        [ ns1:objectMap [ ns1:joinCondition [ ns1:child "project_id" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#supplier_projects_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasProject> ],
+        [ ns1:objectMap [ ns2:reference "region" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasRegion> ],
+        [ ns1:objectMap [ ns2:reference "material_group" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasMaterialGroup> ],
+        [ ns1:objectMap [ ns2:reference "creation_date" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasCreationDate> ],
+        [ ns1:objectMap [ ns2:reference "title" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasTitle> ],
+        [ ns1:objectMap [ ns2:reference "status" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasRfqStatus> ],
+        [ ns1:objectMap [ ns2:reference "category" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasCategory> ],
+        [ ns1:objectMap [ ns2:reference "volume" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasVolume> ] ;
+    ns1:subjectMap [ ns1:class <http://localhost:8001/supplier.owlRfqs> ;
+            ns1:template "http://example.com/base/supplier#rfqs/{id}" ] .
+
+<http://example.com/base/#university_student_TriplesMap> a ns1:TriplesMap ;
+    ns2:logicalSource [ ns2:source <http://example.com/base/#DB_source> ;
+            ns1:sqlVersion ns1:SQL2008 ;
+            ns1:tableName "university.student" ] ;
+    ns1:predicateObjectMap [ ns1:objectMap [ ns2:reference "birthday" ] ;
+            ns1:predicate <http://localhost:8001/university.owlhasBirthday> ],
+        [ ns1:objectMap [ ns2:reference "lastname" ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasLastName> ],
+        [ ns1:objectMap [ ns2:reference "firstname" ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasFirstName> ],
+        [ ns1:objectMap [ ns2:reference "matriculation_number" ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasMatriculationNumber> ],
+        [ ns1:objectMap [ ns1:joinCondition [ ns1:child "has_grade" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#university_grade_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasGrade> ],
+        [ ns1:objectMap [ ns1:joinCondition [ ns1:child "belongs_to_faculty" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#university_faculty_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/university.owl#belongs_to_faculty> ] ;
+    ns1:subjectMap [ ns1:class <http://localhost:8001/university.owl#Student> ;
+            ns1:template "http://example.com/base/university#student/{id}" ] .
+
+<http://example.com/base/#supplier_supplier_address_TriplesMap> a ns1:TriplesMap ;
+    ns2:logicalSource [ ns2:source <http://example.com/base/#DB_source> ;
+            ns1:sqlVersion ns1:SQL2008 ;
+            ns1:tableName "supplier.supplier_address" ] ;
+    ns1:predicateObjectMap [ ns1:objectMap [ ns2:reference "street" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasStreet> ],
+        [ ns1:objectMap [ ns2:reference "city" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasCity> ],
+        [ ns1:objectMap [ ns2:reference "country" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasCountry> ],
+        [ ns1:objectMap [ ns2:reference "zip_code" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasZipCode> ] ;
+    ns1:subjectMap [ ns1:class <http://localhost:8001/supplier.owl#Supplier_Address> ;
+            ns1:template "http://example.com/base/supplier#supplier_address/{id}" ] .
+
+<http://example.com/base/#university_course_TriplesMap> a ns1:TriplesMap ;
+    ns2:logicalSource [ ns2:source <http://example.com/base/#DB_source> ;
+            ns1:sqlVersion ns1:SQL2008 ;
+            ns1:tableName "university.course" ] ;
+    ns1:predicateObjectMap [ ns1:objectMap [ ns2:reference "name" ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasName> ],
+        [ ns1:objectMap [ ns1:joinCondition [ ns1:child "faculty_id" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#university_faculty_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/university.owl#isPartOfStudy> ] ;
+    ns1:subjectMap [ ns1:class <http://localhost:8001/university.owl#Course> ;
+            ns1:template "http://example.com/base/university#course/{id}" ] .
+
+<http://example.com/base/#university_grade_TriplesMap> a ns1:TriplesMap ;
+    ns2:logicalSource [ ns2:source <http://example.com/base/#DB_source> ;
+            ns1:sqlVersion ns1:SQL2008 ;
+            ns1:tableName "university.grade" ] ;
+    ns1:predicateObjectMap [ ns1:objectMap [ ns2:reference "points" ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasGradeValue> ],
+        [ ns1:objectMap [ ns2:reference "grade_letter" ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasGradeLetter> ],
+        [ ns1:objectMap [ ns1:joinCondition [ ns1:child "belongs_to_course" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#university_course_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/university.owl#isGradeOfCourse> ] ;
+    ns1:subjectMap [ ns1:class <http://localhost:8001/university.owl#Grade> ;
+            ns1:template "http://example.com/base/university#grade/{id}" ] .
+
+<http://example.com/base/#university_professor_TriplesMap> a ns1:TriplesMap ;
+    ns2:logicalSource [ ns2:source <http://example.com/base/#DB_source> ;
+            ns1:sqlVersion ns1:SQL2008 ;
+            ns1:tableName "university.professor" ] ;
+    ns1:predicateObjectMap [ ns1:objectMap [ ns1:joinCondition [ ns1:child "professor_id" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#university_professor_faculty_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/university.owl#teachesCourseMaterial> ],
+        [ ns1:objectMap [ ns2:reference "firstname" ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasFirstName> ],
+        [ ns1:objectMap [ ns2:reference "lastname" ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasLastName> ],
+        [ ns1:objectMap [ ns2:reference "birthday" ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasBirthday> ],
+        [ ns1:objectMap [ ns1:joinCondition [ ns1:child "id" ;
+                            ns1:parent "faculty_head_id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#university_faculty_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasFaculty> ] ;
+    ns1:subjectMap [ ns1:class <http://localhost:8001/university.owl#Professor> ;
+            ns1:template "http://example.com/base/university#professor/{professor_id}" ],
+        [ ns1:class <http://localhost:8001/university.owl#Professor> ;
+            ns1:template "http://example.com/base/university#professor/{id}" ] .
+
+<http://example.com/base/#university_professor_faculty_TriplesMap> a ns1:TriplesMap ;
+    ns2:logicalSource [ ns2:source <http://example.com/base/#DB_source> ;
+            ns1:sqlVersion ns1:SQL2008 ;
+            ns1:tableName "university.professor_faculty" ] ;
+    ns1:predicateObjectMap [ ns1:objectMap [ ns2:reference "faculty_id" ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasFacultyHead> ],
+        [ ns1:objectMap [ ns1:joinCondition [ ns1:child "faculty_id" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#university_faculty_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/university.owl#worksForFaculty> ] ;
+    ns1:subjectMap [ ns1:class <http://localhost:8001/university.owl#Faculty> ;
+            ns1:template "http://example.com/base/university#professor_faculty/{faculty_id}" ] .
+
+<http://example.com/base/#supplier_projects_TriplesMap> a ns1:TriplesMap ;
+    ns2:logicalSource [ ns2:source <http://example.com/base/#DB_source> ;
+            ns1:sqlVersion ns1:SQL2008 ;
+            ns1:tableName "supplier.projects" ] ;
+    ns1:predicateObjectMap [ ns1:objectMap [ ns1:joinCondition [ ns1:child "owner" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#supplier_employee_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasOwner> ],
+        [ ns1:objectMap [ ns1:joinCondition [ ns1:child "supplier_id" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#supplier_supplier_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasSupplier> ],
+        [ ns1:objectMap [ ns2:reference "title" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasTitle> ],
+        [ ns1:objectMap [ ns2:reference "status" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasProjectStatus> ],
+        [ ns1:objectMap [ ns2:reference "category" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasCategory> ],
+        [ ns1:objectMap [ ns2:reference "start_date" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasStartDate> ] ;
+    ns1:subjectMap [ ns1:class <http://localhost:8001/supplier.owlProjects> ;
+            ns1:template "http://example.com/base/supplier#projects/{id}" ] .
+
+<http://example.com/base/#supplier_supplier_TriplesMap> a ns1:TriplesMap ;
+    ns2:logicalSource [ ns2:source <http://example.com/base/#DB_source> ;
+            ns1:sqlVersion ns1:SQL2008 ;
+            ns1:tableName "supplier.supplier" ] ;
+    ns1:predicateObjectMap [ ns1:objectMap [ ns1:joinCondition [ ns1:child "address_id" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#supplier_supplier_address_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasAddress> ],
+        [ ns1:objectMap [ ns2:reference "name" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasName> ],
+        [ ns1:objectMap [ ns2:reference "pyramid_rank" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#pyramid_rank> ],
+        [ ns1:objectMap [ ns2:reference "is_top_parent" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#is_top_parent> ],
+        [ ns1:objectMap [ ns1:joinCondition [ ns1:child "mentor" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#supplier_employee_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasMentor> ] ;
+    ns1:subjectMap [ ns1:class <http://localhost:8001/supplier.owl#Supplier> ;
+            ns1:template "http://example.com/base/supplier#supplier/{id}" ] .
+
+<http://example.com/base/#supplier_employee_TriplesMap> a ns1:TriplesMap ;
+    ns2:logicalSource [ ns2:source <http://example.com/base/#DB_source> ;
+            ns1:sqlVersion ns1:SQL2008 ;
+            ns1:tableName "supplier.employee" ] ;
+    ns1:predicateObjectMap [ ns1:objectMap [ ns2:reference "username" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owlhasUsername> ],
+        [ ns1:objectMap [ ns2:reference "email" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasEmail> ],
+        [ ns1:objectMap [ ns2:reference "company_role" ] ;
+            ns1:predicate <http://localhost:8001/supplier.owl#hasCompanyRole> ] ;
+    ns1:subjectMap [ ns1:class <http://localhost:8001/supplier.owl#Employee> ;
+            ns1:template "http://example.com/base/supplier#employee/{id}" ] .
+
+<http://example.com/base/#university_faculty_TriplesMap> a ns1:TriplesMap ;
+    ns2:logicalSource [ ns2:source <http://example.com/base/#DB_source> ;
+            ns1:sqlVersion ns1:SQL2008 ;
+            ns1:tableName "university.faculty" ] ;
+    ns1:predicateObjectMap [ ns1:objectMap [ ns2:reference "faculty_name" ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasFaculty> ],
+        [ ns1:objectMap [ ns2:reference "faculty_description" ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasFaculty> ],
+        [ ns1:objectMap [ ns1:joinCondition [ ns1:child "faculty_head_id" ;
+                            ns1:parent "id" ] ;
+                    ns1:parentTriplesMap <http://example.com/base/#university_professor_TriplesMap> ] ;
+            ns1:predicate <http://localhost:8001/university.owl#hasFacultyHead> ] ;
+    ns1:subjectMap [ ns1:class <http://localhost:8001/university.owl#Faculty> ;
+            ns1:template "http://example.com/base/university#faculty/{id}" ] .
+
+<http://example.com/base/#DB_source> a ns3:Database ;
+    ns3:jdbcDSN "jdbc:postgresql://localhost:5432/db" ;
+    ns3:jdbcDriver "org.postgresql.Driver" ;
+    ns3:password "YourStrong!Passw0rd" ;
+    ns3:username "ex" .
+

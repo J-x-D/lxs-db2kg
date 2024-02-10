@@ -1,0 +1,26 @@
+version: "3.7"
+services:
+  postgres:
+    image: postgres:15
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_USER=sa
+      - POSTGRES_PASSWORD=YourStrong!Passw0rd
+      - POSTGRES_DB=db
+    volumes:
+      - type: volume
+        source: postgres_data
+        target: /var/lib/postgresql/data
+      - ./app/scripts/init.sql:/docker-entrypoint-initdb.d/create_schemas.sql
+  web:
+    build:
+      context: app
+      target: builder
+    # flask requires SIGINT to stop gracefully
+    # (default stop signal from Compose is SIGTERM)
+    stop_signal: SIGINT
+    ports:
+      - "80:80"
+volumes:
+  postgres_data:

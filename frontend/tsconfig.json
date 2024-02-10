@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "/*"
+      ]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "lib/forceGraphGenerator.js",
+    "lib/forceGraphGenerator.js",
+    "tsconfig.json",
+    "src/utils/openai.js",
+    ".next/types/**/*.ts"
+, "public/texts/TeslaCyberTruck.tst"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

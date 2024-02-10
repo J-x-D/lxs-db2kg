@@ -1,0 +1,1652 @@
+<http://example.com/base/supplier#Employee/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "1".
+<http://example.com/base/supplier#Employee/1> <http://localhost:8001/supplier.owlusername> "MaxMustermann".
+<http://example.com/base/supplier#Employee/1> <http://localhost:8001/supplier.owlemail> "max.mustermann@example.com".
+<http://example.com/base/supplier#Employee/1> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2".
+<http://example.com/base/supplier#Employee/2> <http://localhost:8001/supplier.owlusername> "LisaSchulz".
+<http://example.com/base/supplier#Employee/2> <http://localhost:8001/supplier.owlemail> "lisa.schulz@example.com".
+<http://example.com/base/supplier#Employee/2> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "3".
+<http://example.com/base/supplier#Employee/3> <http://localhost:8001/supplier.owlusername> "TomMüller".
+<http://example.com/base/supplier#Employee/3> <http://localhost:8001/supplier.owlemail> "tom.muller@example.com".
+<http://example.com/base/supplier#Employee/3> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "4".
+<http://example.com/base/supplier#Employee/4> <http://localhost:8001/supplier.owlusername> "SarahSchmidt".
+<http://example.com/base/supplier#Employee/4> <http://localhost:8001/supplier.owlemail> "sarah.schmidt@example.com".
+<http://example.com/base/supplier#Employee/4> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "5".
+<http://example.com/base/supplier#Employee/5> <http://localhost:8001/supplier.owlusername> "MarkusFischer".
+<http://example.com/base/supplier#Employee/5> <http://localhost:8001/supplier.owlemail> "markus.fischer@example.com".
+<http://example.com/base/supplier#Employee/5> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "6".
+<http://example.com/base/supplier#Employee/6> <http://localhost:8001/supplier.owlusername> "JuliaKoch".
+<http://example.com/base/supplier#Employee/6> <http://localhost:8001/supplier.owlemail> "julia.koch@example.com".
+<http://example.com/base/supplier#Employee/6> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "7".
+<http://example.com/base/supplier#Employee/7> <http://localhost:8001/supplier.owlusername> "MichaelWeber".
+<http://example.com/base/supplier#Employee/7> <http://localhost:8001/supplier.owlemail> "michael.weber@example.com".
+<http://example.com/base/supplier#Employee/7> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "8".
+<http://example.com/base/supplier#Employee/8> <http://localhost:8001/supplier.owlusername> "LauraHoffmann".
+<http://example.com/base/supplier#Employee/8> <http://localhost:8001/supplier.owlemail> "laura.hoffmann@example.com".
+<http://example.com/base/supplier#Employee/8> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "9".
+<http://example.com/base/supplier#Employee/9> <http://localhost:8001/supplier.owlusername> "PaulSchneider".
+<http://example.com/base/supplier#Employee/9> <http://localhost:8001/supplier.owlemail> "paul.schneider@example.com".
+<http://example.com/base/supplier#Employee/9> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "10".
+<http://example.com/base/supplier#Employee/10> <http://localhost:8001/supplier.owlusername> "AnnaBecker".
+<http://example.com/base/supplier#Employee/10> <http://localhost:8001/supplier.owlemail> "anna.becker@example.com".
+<http://example.com/base/supplier#Employee/10> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "11".
+<http://example.com/base/supplier#Employee/11> <http://localhost:8001/supplier.owlusername> "KevinSchwarz".
+<http://example.com/base/supplier#Employee/11> <http://localhost:8001/supplier.owlemail> "kevin.schwarz@example.com".
+<http://example.com/base/supplier#Employee/11> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "12".
+<http://example.com/base/supplier#Employee/12> <http://localhost:8001/supplier.owlusername> "JessicaWolf".
+<http://example.com/base/supplier#Employee/12> <http://localhost:8001/supplier.owlemail> "jessica.wolf@example.com".
+<http://example.com/base/supplier#Employee/12> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "13".
+<http://example.com/base/supplier#Employee/13> <http://localhost:8001/supplier.owlusername> "DavidBauer".
+<http://example.com/base/supplier#Employee/13> <http://localhost:8001/supplier.owlemail> "david.bauer@example.com".
+<http://example.com/base/supplier#Employee/13> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "14".
+<http://example.com/base/supplier#Employee/14> <http://localhost:8001/supplier.owlusername> "MariaSchmitt".
+<http://example.com/base/supplier#Employee/14> <http://localhost:8001/supplier.owlemail> "maria.schmitt@example.com".
+<http://example.com/base/supplier#Employee/14> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "15".
+<http://example.com/base/supplier#Employee/15> <http://localhost:8001/supplier.owlusername> "PatrickLange".
+<http://example.com/base/supplier#Employee/15> <http://localhost:8001/supplier.owlemail> "patrick.lange@example.com".
+<http://example.com/base/supplier#Employee/15> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "16".
+<http://example.com/base/supplier#Employee/16> <http://localhost:8001/supplier.owlusername> "JenniferKrüger".
+<http://example.com/base/supplier#Employee/16> <http://localhost:8001/supplier.owlemail> "jennifer.kruger@example.com".
+<http://example.com/base/supplier#Employee/16> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "17".
+<http://example.com/base/supplier#Employee/17> <http://localhost:8001/supplier.owlusername> "DanielHuber".
+<http://example.com/base/supplier#Employee/17> <http://localhost:8001/supplier.owlemail> "daniel.huber@example.com".
+<http://example.com/base/supplier#Employee/17> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "18".
+<http://example.com/base/supplier#Employee/18> <http://localhost:8001/supplier.owlusername> "SandraRichter".
+<http://example.com/base/supplier#Employee/18> <http://localhost:8001/supplier.owlemail> "sandra.richter@example.com".
+<http://example.com/base/supplier#Employee/18> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "19".
+<http://example.com/base/supplier#Employee/19> <http://localhost:8001/supplier.owlusername> "ChristianMayer".
+<http://example.com/base/supplier#Employee/19> <http://localhost:8001/supplier.owlemail> "christian.mayer@example.com".
+<http://example.com/base/supplier#Employee/19> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "20".
+<http://example.com/base/supplier#Employee/20> <http://localhost:8001/supplier.owlusername> "LauraMöller".
+<http://example.com/base/supplier#Employee/20> <http://localhost:8001/supplier.owlemail> "laura.moller@example.com".
+<http://example.com/base/supplier#Employee/20> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "21".
+<http://example.com/base/supplier#Employee/21> <http://localhost:8001/supplier.owlusername> "AndreasWagner".
+<http://example.com/base/supplier#Employee/21> <http://localhost:8001/supplier.owlemail> "andreas.wagner@example.com".
+<http://example.com/base/supplier#Employee/21> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "22".
+<http://example.com/base/supplier#Employee/22> <http://localhost:8001/supplier.owlusername> "SarahSchulze".
+<http://example.com/base/supplier#Employee/22> <http://localhost:8001/supplier.owlemail> "sarah.schulze@example.com".
+<http://example.com/base/supplier#Employee/22> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "23".
+<http://example.com/base/supplier#Employee/23> <http://localhost:8001/supplier.owlusername> "MartinKühn".
+<http://example.com/base/supplier#Employee/23> <http://localhost:8001/supplier.owlemail> "martin.kuhn@example.com".
+<http://example.com/base/supplier#Employee/23> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "24".
+<http://example.com/base/supplier#Employee/24> <http://localhost:8001/supplier.owlusername> "MelanieHahn".
+<http://example.com/base/supplier#Employee/24> <http://localhost:8001/supplier.owlemail> "melanie.hahn@example.com".
+<http://example.com/base/supplier#Employee/24> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "25".
+<http://example.com/base/supplier#Employee/25> <http://localhost:8001/supplier.owlusername> "ThomasSchmitz".
+<http://example.com/base/supplier#Employee/25> <http://localhost:8001/supplier.owlemail> "thomas.schmitz@example.com".
+<http://example.com/base/supplier#Employee/25> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "26".
+<http://example.com/base/supplier#Employee/26> <http://localhost:8001/supplier.owlusername> "JuliaKrause".
+<http://example.com/base/supplier#Employee/26> <http://localhost:8001/supplier.owlemail> "julia.krause@example.com".
+<http://example.com/base/supplier#Employee/26> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "27".
+<http://example.com/base/supplier#Employee/27> <http://localhost:8001/supplier.owlusername> "FelixScholz".
+<http://example.com/base/supplier#Employee/27> <http://localhost:8001/supplier.owlemail> "felix.scholz@example.com".
+<http://example.com/base/supplier#Employee/27> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "28".
+<http://example.com/base/supplier#Employee/28> <http://localhost:8001/supplier.owlusername> "LauraLehmann".
+<http://example.com/base/supplier#Employee/28> <http://localhost:8001/supplier.owlemail> "laura.lehmann@example.com".
+<http://example.com/base/supplier#Employee/28> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "29".
+<http://example.com/base/supplier#Employee/29> <http://localhost:8001/supplier.owlusername> "StefanKeller".
+<http://example.com/base/supplier#Employee/29> <http://localhost:8001/supplier.owlemail> "stefan.keller@example.com".
+<http://example.com/base/supplier#Employee/29> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "30".
+<http://example.com/base/supplier#Employee/30> <http://localhost:8001/supplier.owlusername> "CarolinLudwig".
+<http://example.com/base/supplier#Employee/30> <http://localhost:8001/supplier.owlemail> "carolin.ludwig@example.com".
+<http://example.com/base/supplier#Employee/30> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "31".
+<http://example.com/base/supplier#Employee/31> <http://localhost:8001/supplier.owlusername> "NicoSchreiber".
+<http://example.com/base/supplier#Employee/31> <http://localhost:8001/supplier.owlemail> "nico.schreiber@example.com".
+<http://example.com/base/supplier#Employee/31> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "32".
+<http://example.com/base/supplier#Employee/32> <http://localhost:8001/supplier.owlusername> "ChristinaNeumann".
+<http://example.com/base/supplier#Employee/32> <http://localhost:8001/supplier.owlemail> "christina.neumann@example.com".
+<http://example.com/base/supplier#Employee/32> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "33".
+<http://example.com/base/supplier#Employee/33> <http://localhost:8001/supplier.owlusername> "JonasKaiser".
+<http://example.com/base/supplier#Employee/33> <http://localhost:8001/supplier.owlemail> "jonas.kaiser@example.com".
+<http://example.com/base/supplier#Employee/33> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "34".
+<http://example.com/base/supplier#Employee/34> <http://localhost:8001/supplier.owlusername> "LisaSchubert".
+<http://example.com/base/supplier#Employee/34> <http://localhost:8001/supplier.owlemail> "lisa.schubert@example.com".
+<http://example.com/base/supplier#Employee/34> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "35".
+<http://example.com/base/supplier#Employee/35> <http://localhost:8001/supplier.owlusername> "BenjaminBaumann".
+<http://example.com/base/supplier#Employee/35> <http://localhost:8001/supplier.owlemail> "benjamin.baumann@example.com".
+<http://example.com/base/supplier#Employee/35> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "36".
+<http://example.com/base/supplier#Employee/36> <http://localhost:8001/supplier.owlusername> "JessicaBerger".
+<http://example.com/base/supplier#Employee/36> <http://localhost:8001/supplier.owlemail> "jessica.berger@example.com".
+<http://example.com/base/supplier#Employee/36> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "37".
+<http://example.com/base/supplier#Employee/37> <http://localhost:8001/supplier.owlusername> "MaximilianVogel".
+<http://example.com/base/supplier#Employee/37> <http://localhost:8001/supplier.owlemail> "maximilian.vogel@example.com".
+<http://example.com/base/supplier#Employee/37> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "38".
+<http://example.com/base/supplier#Employee/38> <http://localhost:8001/supplier.owlusername> "EmilyFuchs".
+<http://example.com/base/supplier#Employee/38> <http://localhost:8001/supplier.owlemail> "emily.fuchs@example.com".
+<http://example.com/base/supplier#Employee/38> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "39".
+<http://example.com/base/supplier#Employee/39> <http://localhost:8001/supplier.owlusername> "SimonHermann".
+<http://example.com/base/supplier#Employee/39> <http://localhost:8001/supplier.owlemail> "simon.hermann@example.com".
+<http://example.com/base/supplier#Employee/39> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "40".
+<http://example.com/base/supplier#Employee/40> <http://localhost:8001/supplier.owlusername> "LenaHofmann".
+<http://example.com/base/supplier#Employee/40> <http://localhost:8001/supplier.owlemail> "lena.hofmann@example.com".
+<http://example.com/base/supplier#Employee/40> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "41".
+<http://example.com/base/supplier#Employee/41> <http://localhost:8001/supplier.owlusername> "NilsKönig".
+<http://example.com/base/supplier#Employee/41> <http://localhost:8001/supplier.owlemail> "nils.konig@example.com".
+<http://example.com/base/supplier#Employee/41> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "42".
+<http://example.com/base/supplier#Employee/42> <http://localhost:8001/supplier.owlusername> "HannahKraft".
+<http://example.com/base/supplier#Employee/42> <http://localhost:8001/supplier.owlemail> "hannah.kraft@example.com".
+<http://example.com/base/supplier#Employee/42> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "43".
+<http://example.com/base/supplier#Employee/43> <http://localhost:8001/supplier.owlusername> "JanLorenz".
+<http://example.com/base/supplier#Employee/43> <http://localhost:8001/supplier.owlemail> "jan.lorenz@example.com".
+<http://example.com/base/supplier#Employee/43> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "44".
+<http://example.com/base/supplier#Employee/44> <http://localhost:8001/supplier.owlusername> "SophieBergmann".
+<http://example.com/base/supplier#Employee/44> <http://localhost:8001/supplier.owlemail> "sophie.bergmann@example.com".
+<http://example.com/base/supplier#Employee/44> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "45".
+<http://example.com/base/supplier#Employee/45> <http://localhost:8001/supplier.owlusername> "TimWolff".
+<http://example.com/base/supplier#Employee/45> <http://localhost:8001/supplier.owlemail> "tim.wolff@example.com".
+<http://example.com/base/supplier#Employee/45> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "46".
+<http://example.com/base/supplier#Employee/46> <http://localhost:8001/supplier.owlusername> "LauraSchuster".
+<http://example.com/base/supplier#Employee/46> <http://localhost:8001/supplier.owlemail> "laura.schuster@example.com".
+<http://example.com/base/supplier#Employee/46> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "47".
+<http://example.com/base/supplier#Employee/47> <http://localhost:8001/supplier.owlusername> "SebastianKaiser".
+<http://example.com/base/supplier#Employee/47> <http://localhost:8001/supplier.owlemail> "sebastian.kaiser@example.com".
+<http://example.com/base/supplier#Employee/47> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "48".
+<http://example.com/base/supplier#Employee/48> <http://localhost:8001/supplier.owlusername> "MariaBaum".
+<http://example.com/base/supplier#Employee/48> <http://localhost:8001/supplier.owlemail> "maria.baum@example.com".
+<http://example.com/base/supplier#Employee/48> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "49".
+<http://example.com/base/supplier#Employee/49> <http://localhost:8001/supplier.owlusername> "JulianSchreiner".
+<http://example.com/base/supplier#Employee/49> <http://localhost:8001/supplier.owlemail> "julian.schreiner@example.com".
+<http://example.com/base/supplier#Employee/49> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "50".
+<http://example.com/base/supplier#Employee/50> <http://localhost:8001/supplier.owlusername> "AnnaGraf".
+<http://example.com/base/supplier#Employee/50> <http://localhost:8001/supplier.owlemail> "anna.graf@example.com".
+<http://example.com/base/supplier#Employee/50> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "51".
+<http://example.com/base/supplier#Employee/51> <http://localhost:8001/supplier.owlusername> "AlexMöller".
+<http://example.com/base/supplier#Employee/51> <http://localhost:8001/supplier.owlemail> "alex.moller@example.com".
+<http://example.com/base/supplier#Employee/51> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "52".
+<http://example.com/base/supplier#Employee/52> <http://localhost:8001/supplier.owlusername> "SabrinaSchwarz".
+<http://example.com/base/supplier#Employee/52> <http://localhost:8001/supplier.owlemail> "sabrina.schwarz@example.com".
+<http://example.com/base/supplier#Employee/52> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "53".
+<http://example.com/base/supplier#Employee/53> <http://localhost:8001/supplier.owlusername> "PhilippHoffmann".
+<http://example.com/base/supplier#Employee/53> <http://localhost:8001/supplier.owlemail> "philipp.hoffmann@example.com".
+<http://example.com/base/supplier#Employee/53> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "54".
+<http://example.com/base/supplier#Employee/54> <http://localhost:8001/supplier.owlusername> "LauraSchneider".
+<http://example.com/base/supplier#Employee/54> <http://localhost:8001/supplier.owlemail> "laura.schneider@example.com".
+<http://example.com/base/supplier#Employee/54> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "55".
+<http://example.com/base/supplier#Employee/55> <http://localhost:8001/supplier.owlusername> "KevinBauer".
+<http://example.com/base/supplier#Employee/55> <http://localhost:8001/supplier.owlemail> "kevin.bauer@example.com".
+<http://example.com/base/supplier#Employee/55> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "56".
+<http://example.com/base/supplier#Employee/56> <http://localhost:8001/supplier.owlusername> "SophiaJung".
+<http://example.com/base/supplier#Employee/56> <http://localhost:8001/supplier.owlemail> "sophia.jung@example.com".
+<http://example.com/base/supplier#Employee/56> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "57".
+<http://example.com/base/supplier#Employee/57> <http://localhost:8001/supplier.owlusername> "DanielSchmitt".
+<http://example.com/base/supplier#Employee/57> <http://localhost:8001/supplier.owlemail> "daniel.schmitt@example.com".
+<http://example.com/base/supplier#Employee/57> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "58".
+<http://example.com/base/supplier#Employee/58> <http://localhost:8001/supplier.owlusername> "LisaWolf".
+<http://example.com/base/supplier#Employee/58> <http://localhost:8001/supplier.owlemail> "lisa.wolf@example.com".
+<http://example.com/base/supplier#Employee/58> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "59".
+<http://example.com/base/supplier#Employee/59> <http://localhost:8001/supplier.owlusername> "DavidMayer".
+<http://example.com/base/supplier#Employee/59> <http://localhost:8001/supplier.owlemail> "david.mayer@example.com".
+<http://example.com/base/supplier#Employee/59> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "60".
+<http://example.com/base/supplier#Employee/60> <http://localhost:8001/supplier.owlusername> "SarahHuber".
+<http://example.com/base/supplier#Employee/60> <http://localhost:8001/supplier.owlemail> "sarah.huber@example.com".
+<http://example.com/base/supplier#Employee/60> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "61".
+<http://example.com/base/supplier#Employee/61> <http://localhost:8001/supplier.owlusername> "MichaelSchulze".
+<http://example.com/base/supplier#Employee/61> <http://localhost:8001/supplier.owlemail> "michael.schulze@example.com".
+<http://example.com/base/supplier#Employee/61> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "62".
+<http://example.com/base/supplier#Employee/62> <http://localhost:8001/supplier.owlusername> "LauraKrüger".
+<http://example.com/base/supplier#Employee/62> <http://localhost:8001/supplier.owlemail> "laura.kruger@example.com".
+<http://example.com/base/supplier#Employee/62> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "63".
+<http://example.com/base/supplier#Employee/63> <http://localhost:8001/supplier.owlusername> "MarkusSchwarz".
+<http://example.com/base/supplier#Employee/63> <http://localhost:8001/supplier.owlemail> "markus.schwarz@example.com".
+<http://example.com/base/supplier#Employee/63> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "64".
+<http://example.com/base/supplier#Employee/64> <http://localhost:8001/supplier.owlusername> "JuliaBecker".
+<http://example.com/base/supplier#Employee/64> <http://localhost:8001/supplier.owlemail> "julia.becker@example.com".
+<http://example.com/base/supplier#Employee/64> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "65".
+<http://example.com/base/supplier#Employee/65> <http://localhost:8001/supplier.owlusername> "DavidMüller".
+<http://example.com/base/supplier#Employee/65> <http://localhost:8001/supplier.owlemail> "david.muller@example.com".
+<http://example.com/base/supplier#Employee/65> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "66".
+<http://example.com/base/supplier#Employee/66> <http://localhost:8001/supplier.owlusername> "MariaKoch".
+<http://example.com/base/supplier#Employee/66> <http://localhost:8001/supplier.owlemail> "maria.koch@example.com".
+<http://example.com/base/supplier#Employee/66> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "67".
+<http://example.com/base/supplier#Employee/67> <http://localhost:8001/supplier.owlusername> "TomHoffmann".
+<http://example.com/base/supplier#Employee/67> <http://localhost:8001/supplier.owlemail> "tom.hoffmann@example.com".
+<http://example.com/base/supplier#Employee/67> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "68".
+<http://example.com/base/supplier#Employee/68> <http://localhost:8001/supplier.owlusername> "LisaBauer".
+<http://example.com/base/supplier#Employee/68> <http://localhost:8001/supplier.owlemail> "lisa.bauer@example.com".
+<http://example.com/base/supplier#Employee/68> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "69".
+<http://example.com/base/supplier#Employee/69> <http://localhost:8001/supplier.owlusername> "MaxScholz".
+<http://example.com/base/supplier#Employee/69> <http://localhost:8001/supplier.owlemail> "max.scholz@example.com".
+<http://example.com/base/supplier#Employee/69> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "70".
+<http://example.com/base/supplier#Employee/70> <http://localhost:8001/supplier.owlusername> "SarahMöller".
+<http://example.com/base/supplier#Employee/70> <http://localhost:8001/supplier.owlemail> "sarah.moller@example.com".
+<http://example.com/base/supplier#Employee/70> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "71".
+<http://example.com/base/supplier#Employee/71> <http://localhost:8001/supplier.owlusername> "DanielWagner".
+<http://example.com/base/supplier#Employee/71> <http://localhost:8001/supplier.owlemail> "daniel.wagner@example.com".
+<http://example.com/base/supplier#Employee/71> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "72".
+<http://example.com/base/supplier#Employee/72> <http://localhost:8001/supplier.owlusername> "LauraSchmidt".
+<http://example.com/base/supplier#Employee/72> <http://localhost:8001/supplier.owlemail> "laura.schmidt@example.com".
+<http://example.com/base/supplier#Employee/72> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "73".
+<http://example.com/base/supplier#Employee/73> <http://localhost:8001/supplier.owlusername> "KevinKrause".
+<http://example.com/base/supplier#Employee/73> <http://localhost:8001/supplier.owlemail> "kevin.krause@example.com".
+<http://example.com/base/supplier#Employee/73> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "74".
+<http://example.com/base/supplier#Employee/74> <http://localhost:8001/supplier.owlusername> "JuliaSchneider".
+<http://example.com/base/supplier#Employee/74> <http://localhost:8001/supplier.owlemail> "julia.schneider@example.com".
+<http://example.com/base/supplier#Employee/74> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "75".
+<http://example.com/base/supplier#Employee/75> <http://localhost:8001/supplier.owlusername> "MichaelLehmann".
+<http://example.com/base/supplier#Employee/75> <http://localhost:8001/supplier.owlemail> "michael.lehmann@example.com".
+<http://example.com/base/supplier#Employee/75> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "76".
+<http://example.com/base/supplier#Employee/76> <http://localhost:8001/supplier.owlusername> "LenaKeller".
+<http://example.com/base/supplier#Employee/76> <http://localhost:8001/supplier.owlemail> "lena.keller@example.com".
+<http://example.com/base/supplier#Employee/76> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "77".
+<http://example.com/base/supplier#Employee/77> <http://localhost:8001/supplier.owlusername> "SimonSchumacher".
+<http://example.com/base/supplier#Employee/77> <http://localhost:8001/supplier.owlemail> "simon.schumacher@example.com".
+<http://example.com/base/supplier#Employee/77> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "78".
+<http://example.com/base/supplier#Employee/78> <http://localhost:8001/supplier.owlusername> "CarolinFuchs".
+<http://example.com/base/supplier#Employee/78> <http://localhost:8001/supplier.owlemail> "carolin.fuchs@example.com".
+<http://example.com/base/supplier#Employee/78> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "79".
+<http://example.com/base/supplier#Employee/79> <http://localhost:8001/supplier.owlusername> "JanLudwig".
+<http://example.com/base/supplier#Employee/79> <http://localhost:8001/supplier.owlemail> "jan.ludwig@example.com".
+<http://example.com/base/supplier#Employee/79> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "80".
+<http://example.com/base/supplier#Employee/80> <http://localhost:8001/supplier.owlusername> "SophieBerger".
+<http://example.com/base/supplier#Employee/80> <http://localhost:8001/supplier.owlemail> "sophie.berger@example.com".
+<http://example.com/base/supplier#Employee/80> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "81".
+<http://example.com/base/supplier#Employee/81> <http://localhost:8001/supplier.owlusername> "SebastianMüller".
+<http://example.com/base/supplier#Employee/81> <http://localhost:8001/supplier.owlemail> "sebastian.muller@example.com".
+<http://example.com/base/supplier#Employee/81> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "82".
+<http://example.com/base/supplier#Employee/82> <http://localhost:8001/supplier.owlusername> "EmilyMeyer".
+<http://example.com/base/supplier#Employee/82> <http://localhost:8001/supplier.owlemail> "emily.meyer@example.com".
+<http://example.com/base/supplier#Employee/82> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "83".
+<http://example.com/base/supplier#Employee/83> <http://localhost:8001/supplier.owlusername> "BenjaminBeck".
+<http://example.com/base/supplier#Employee/83> <http://localhost:8001/supplier.owlemail> "benjamin.beck@example.com".
+<http://example.com/base/supplier#Employee/83> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "84".
+<http://example.com/base/supplier#Employee/84> <http://localhost:8001/supplier.owlusername> "LauraWolff".
+<http://example.com/base/supplier#Employee/84> <http://localhost:8001/supplier.owlemail> "laura.wolff@example.com".
+<http://example.com/base/supplier#Employee/84> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "85".
+<http://example.com/base/supplier#Employee/85> <http://localhost:8001/supplier.owlusername> "ChristianSchuster".
+<http://example.com/base/supplier#Employee/85> <http://localhost:8001/supplier.owlemail> "christian.schuster@example.com".
+<http://example.com/base/supplier#Employee/85> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "86".
+<http://example.com/base/supplier#Employee/86> <http://localhost:8001/supplier.owlusername> "NicoKönig".
+<http://example.com/base/supplier#Employee/86> <http://localhost:8001/supplier.owlemail> "nico.konig@example.com".
+<http://example.com/base/supplier#Employee/86> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "87".
+<http://example.com/base/supplier#Employee/87> <http://localhost:8001/supplier.owlusername> "AnnaKraft".
+<http://example.com/base/supplier#Employee/87> <http://localhost:8001/supplier.owlemail> "anna.kraft@example.com".
+<http://example.com/base/supplier#Employee/87> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "88".
+<http://example.com/base/supplier#Employee/88> <http://localhost:8001/supplier.owlusername> "FelixBachmann".
+<http://example.com/base/supplier#Employee/88> <http://localhost:8001/supplier.owlemail> "felix.bachmann@example.com".
+<http://example.com/base/supplier#Employee/88> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "89".
+<http://example.com/base/supplier#Employee/89> <http://localhost:8001/supplier.owlusername> "LauraGraf".
+<http://example.com/base/supplier#Employee/89> <http://localhost:8001/supplier.owlemail> "laura.graf@example.com".
+<http://example.com/base/supplier#Employee/89> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "90".
+<http://example.com/base/supplier#Employee/90> <http://localhost:8001/supplier.owlusername> "SophiaMöller".
+<http://example.com/base/supplier#Employee/90> <http://localhost:8001/supplier.owlemail> "sophia.moller@example.com".
+<http://example.com/base/supplier#Employee/90> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "91".
+<http://example.com/base/supplier#Employee/91> <http://localhost:8001/supplier.owlusername> "TimKaiser".
+<http://example.com/base/supplier#Employee/91> <http://localhost:8001/supplier.owlemail> "tim.kaiser@example.com".
+<http://example.com/base/supplier#Employee/91> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "92".
+<http://example.com/base/supplier#Employee/92> <http://localhost:8001/supplier.owlusername> "HannahSchneider".
+<http://example.com/base/supplier#Employee/92> <http://localhost:8001/supplier.owlemail> "hannah.schneider@example.com".
+<http://example.com/base/supplier#Employee/92> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "93".
+<http://example.com/base/supplier#Employee/93> <http://localhost:8001/supplier.owlusername> "JanSchreiber".
+<http://example.com/base/supplier#Employee/93> <http://localhost:8001/supplier.owlemail> "jan.schreiber@example.com".
+<http://example.com/base/supplier#Employee/93> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "94".
+<http://example.com/base/supplier#Employee/94> <http://localhost:8001/supplier.owlusername> "LisaHahn".
+<http://example.com/base/supplier#Employee/94> <http://localhost:8001/supplier.owlemail> "lisa.hahn@example.com".
+<http://example.com/base/supplier#Employee/94> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "95".
+<http://example.com/base/supplier#Employee/95> <http://localhost:8001/supplier.owlusername> "MaxJäger".
+<http://example.com/base/supplier#Employee/95> <http://localhost:8001/supplier.owlemail> "max.jager@example.com".
+<http://example.com/base/supplier#Employee/95> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "96".
+<http://example.com/base/supplier#Employee/96> <http://localhost:8001/supplier.owlusername> "LenaScholz".
+<http://example.com/base/supplier#Employee/96> <http://localhost:8001/supplier.owlemail> "lena.scholz@example.com".
+<http://example.com/base/supplier#Employee/96> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "97".
+<http://example.com/base/supplier#Employee/97> <http://localhost:8001/supplier.owlusername> "TomHermann".
+<http://example.com/base/supplier#Employee/97> <http://localhost:8001/supplier.owlemail> "tom.hermann@example.com".
+<http://example.com/base/supplier#Employee/97> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "98".
+<http://example.com/base/supplier#Employee/98> <http://localhost:8001/supplier.owlusername> "SarahHofmann".
+<http://example.com/base/supplier#Employee/98> <http://localhost:8001/supplier.owlemail> "sarah.hofmann@example.com".
+<http://example.com/base/supplier#Employee/98> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "99".
+<http://example.com/base/supplier#Employee/99> <http://localhost:8001/supplier.owlusername> "MichaelMayer".
+<http://example.com/base/supplier#Employee/99> <http://localhost:8001/supplier.owlemail> "michael.mayer@example.com".
+<http://example.com/base/supplier#Employee/99> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "100".
+<http://example.com/base/supplier#Employee/100> <http://localhost:8001/supplier.owlusername> "JuliaWagner".
+<http://example.com/base/supplier#Employee/100> <http://localhost:8001/supplier.owlemail> "julia.wagner@example.com".
+<http://example.com/base/supplier#Employee/100> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "101".
+<http://example.com/base/supplier#Employee/101> <http://localhost:8001/supplier.owlusername> "DavidSchmitt".
+<http://example.com/base/supplier#Employee/101> <http://localhost:8001/supplier.owlemail> "david.schmitt@example.com".
+<http://example.com/base/supplier#Employee/101> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "102".
+<http://example.com/base/supplier#Employee/102> <http://localhost:8001/supplier.owlusername> "MariaLehmann".
+<http://example.com/base/supplier#Employee/102> <http://localhost:8001/supplier.owlemail> "maria.lehmann@example.com".
+<http://example.com/base/supplier#Employee/102> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "103".
+<http://example.com/base/supplier#Employee/103> <http://localhost:8001/supplier.owlusername> "KevinKeller".
+<http://example.com/base/supplier#Employee/103> <http://localhost:8001/supplier.owlemail> "kevin.keller@example.com".
+<http://example.com/base/supplier#Employee/103> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "104".
+<http://example.com/base/supplier#Employee/104> <http://localhost:8001/supplier.owlusername> "LauraSchreiber".
+<http://example.com/base/supplier#Employee/104> <http://localhost:8001/supplier.owlemail> "laura.schreiber@example.com".
+<http://example.com/base/supplier#Employee/104> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "105".
+<http://example.com/base/supplier#Employee/105> <http://localhost:8001/supplier.owlusername> "MarkusSchwarz".
+<http://example.com/base/supplier#Employee/105> <http://localhost:8001/supplier.owlemail> "markus.schwarz@example.com".
+<http://example.com/base/supplier#Employee/105> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "106".
+<http://example.com/base/supplier#Employee/106> <http://localhost:8001/supplier.owlusername> "SarahBecker".
+<http://example.com/base/supplier#Employee/106> <http://localhost:8001/supplier.owlemail> "sarah.becker@example.com".
+<http://example.com/base/supplier#Employee/106> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "107".
+<http://example.com/base/supplier#Employee/107> <http://localhost:8001/supplier.owlusername> "DanielMüller".
+<http://example.com/base/supplier#Employee/107> <http://localhost:8001/supplier.owlemail> "daniel.muller@example.com".
+<http://example.com/base/supplier#Employee/107> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "108".
+<http://example.com/base/supplier#Employee/108> <http://localhost:8001/supplier.owlusername> "AnnaKoch".
+<http://example.com/base/supplier#Employee/108> <http://localhost:8001/supplier.owlemail> "anna.koch@example.com".
+<http://example.com/base/supplier#Employee/108> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "109".
+<http://example.com/base/supplier#Employee/109> <http://localhost:8001/supplier.owlusername> "TomHoffmann".
+<http://example.com/base/supplier#Employee/109> <http://localhost:8001/supplier.owlemail> "tom.hoffmann@example.com".
+<http://example.com/base/supplier#Employee/109> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "110".
+<http://example.com/base/supplier#Employee/110> <http://localhost:8001/supplier.owlusername> "LisaBauer".
+<http://example.com/base/supplier#Employee/110> <http://localhost:8001/supplier.owlemail> "lisa.bauer@example.com".
+<http://example.com/base/supplier#Employee/110> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "111".
+<http://example.com/base/supplier#Employee/111> <http://localhost:8001/supplier.owlusername> "MaxScholz".
+<http://example.com/base/supplier#Employee/111> <http://localhost:8001/supplier.owlemail> "max.scholz@example.com".
+<http://example.com/base/supplier#Employee/111> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "112".
+<http://example.com/base/supplier#Employee/112> <http://localhost:8001/supplier.owlusername> "SarahMöller".
+<http://example.com/base/supplier#Employee/112> <http://localhost:8001/supplier.owlemail> "sarah.moller@example.com".
+<http://example.com/base/supplier#Employee/112> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "113".
+<http://example.com/base/supplier#Employee/113> <http://localhost:8001/supplier.owlusername> "DanielWagner".
+<http://example.com/base/supplier#Employee/113> <http://localhost:8001/supplier.owlemail> "daniel.wagner@example.com".
+<http://example.com/base/supplier#Employee/113> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "114".
+<http://example.com/base/supplier#Employee/114> <http://localhost:8001/supplier.owlusername> "LauraSchmidt".
+<http://example.com/base/supplier#Employee/114> <http://localhost:8001/supplier.owlemail> "laura.schmidt@example.com".
+<http://example.com/base/supplier#Employee/114> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "115".
+<http://example.com/base/supplier#Employee/115> <http://localhost:8001/supplier.owlusername> "KevinKrause".
+<http://example.com/base/supplier#Employee/115> <http://localhost:8001/supplier.owlemail> "kevin.krause@example.com".
+<http://example.com/base/supplier#Employee/115> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "116".
+<http://example.com/base/supplier#Employee/116> <http://localhost:8001/supplier.owlusername> "JuliaSchneider".
+<http://example.com/base/supplier#Employee/116> <http://localhost:8001/supplier.owlemail> "julia.schneider@example.com".
+<http://example.com/base/supplier#Employee/116> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "117".
+<http://example.com/base/supplier#Employee/117> <http://localhost:8001/supplier.owlusername> "MichaelLehmann".
+<http://example.com/base/supplier#Employee/117> <http://localhost:8001/supplier.owlemail> "michael.lehmann@example.com".
+<http://example.com/base/supplier#Employee/117> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "118".
+<http://example.com/base/supplier#Employee/118> <http://localhost:8001/supplier.owlusername> "LenaKeller".
+<http://example.com/base/supplier#Employee/118> <http://localhost:8001/supplier.owlemail> "lena.keller@example.com".
+<http://example.com/base/supplier#Employee/118> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "119".
+<http://example.com/base/supplier#Employee/119> <http://localhost:8001/supplier.owlusername> "SimonSchumacher".
+<http://example.com/base/supplier#Employee/119> <http://localhost:8001/supplier.owlemail> "simon.schumacher@example.com".
+<http://example.com/base/supplier#Employee/119> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "120".
+<http://example.com/base/supplier#Employee/120> <http://localhost:8001/supplier.owlusername> "CarolinFuchs".
+<http://example.com/base/supplier#Employee/120> <http://localhost:8001/supplier.owlemail> "carolin.fuchs@example.com".
+<http://example.com/base/supplier#Employee/120> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "121".
+<http://example.com/base/supplier#Employee/121> <http://localhost:8001/supplier.owlusername> "JanLudwig".
+<http://example.com/base/supplier#Employee/121> <http://localhost:8001/supplier.owlemail> "jan.ludwig@example.com".
+<http://example.com/base/supplier#Employee/121> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "122".
+<http://example.com/base/supplier#Employee/122> <http://localhost:8001/supplier.owlusername> "SophieBerger".
+<http://example.com/base/supplier#Employee/122> <http://localhost:8001/supplier.owlemail> "sophie.berger@example.com".
+<http://example.com/base/supplier#Employee/122> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "123".
+<http://example.com/base/supplier#Employee/123> <http://localhost:8001/supplier.owlusername> "SebastianMüller".
+<http://example.com/base/supplier#Employee/123> <http://localhost:8001/supplier.owlemail> "sebastian.muller@example.com".
+<http://example.com/base/supplier#Employee/123> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "124".
+<http://example.com/base/supplier#Employee/124> <http://localhost:8001/supplier.owlusername> "EmilyMeyer".
+<http://example.com/base/supplier#Employee/124> <http://localhost:8001/supplier.owlemail> "emily.meyer@example.com".
+<http://example.com/base/supplier#Employee/124> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "125".
+<http://example.com/base/supplier#Employee/125> <http://localhost:8001/supplier.owlusername> "BenjaminBeck".
+<http://example.com/base/supplier#Employee/125> <http://localhost:8001/supplier.owlemail> "benjamin.beck@example.com".
+<http://example.com/base/supplier#Employee/125> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "126".
+<http://example.com/base/supplier#Employee/126> <http://localhost:8001/supplier.owlusername> "LauraWolff".
+<http://example.com/base/supplier#Employee/126> <http://localhost:8001/supplier.owlemail> "laura.wolff@example.com".
+<http://example.com/base/supplier#Employee/126> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "127".
+<http://example.com/base/supplier#Employee/127> <http://localhost:8001/supplier.owlusername> "ChristianSchuster".
+<http://example.com/base/supplier#Employee/127> <http://localhost:8001/supplier.owlemail> "christian.schuster@example.com".
+<http://example.com/base/supplier#Employee/127> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "128".
+<http://example.com/base/supplier#Employee/128> <http://localhost:8001/supplier.owlusername> "NicoKönig".
+<http://example.com/base/supplier#Employee/128> <http://localhost:8001/supplier.owlemail> "nico.konig@example.com".
+<http://example.com/base/supplier#Employee/128> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "129".
+<http://example.com/base/supplier#Employee/129> <http://localhost:8001/supplier.owlusername> "AnnaKraft".
+<http://example.com/base/supplier#Employee/129> <http://localhost:8001/supplier.owlemail> "anna.kraft@example.com".
+<http://example.com/base/supplier#Employee/129> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "130".
+<http://example.com/base/supplier#Employee/130> <http://localhost:8001/supplier.owlusername> "FelixBachmann".
+<http://example.com/base/supplier#Employee/130> <http://localhost:8001/supplier.owlemail> "felix.bachmann@example.com".
+<http://example.com/base/supplier#Employee/130> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "131".
+<http://example.com/base/supplier#Employee/131> <http://localhost:8001/supplier.owlusername> "LauraGraf".
+<http://example.com/base/supplier#Employee/131> <http://localhost:8001/supplier.owlemail> "laura.graf@example.com".
+<http://example.com/base/supplier#Employee/131> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "132".
+<http://example.com/base/supplier#Employee/132> <http://localhost:8001/supplier.owlusername> "SophiaMöller".
+<http://example.com/base/supplier#Employee/132> <http://localhost:8001/supplier.owlemail> "sophia.moller@example.com".
+<http://example.com/base/supplier#Employee/132> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "133".
+<http://example.com/base/supplier#Employee/133> <http://localhost:8001/supplier.owlusername> "TimKaiser".
+<http://example.com/base/supplier#Employee/133> <http://localhost:8001/supplier.owlemail> "tim.kaiser@example.com".
+<http://example.com/base/supplier#Employee/133> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "134".
+<http://example.com/base/supplier#Employee/134> <http://localhost:8001/supplier.owlusername> "HannahSchneider".
+<http://example.com/base/supplier#Employee/134> <http://localhost:8001/supplier.owlemail> "hannah.schneider@example.com".
+<http://example.com/base/supplier#Employee/134> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "135".
+<http://example.com/base/supplier#Employee/135> <http://localhost:8001/supplier.owlusername> "JanSchreiber".
+<http://example.com/base/supplier#Employee/135> <http://localhost:8001/supplier.owlemail> "jan.schreiber@example.com".
+<http://example.com/base/supplier#Employee/135> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "136".
+<http://example.com/base/supplier#Employee/136> <http://localhost:8001/supplier.owlusername> "LisaHahn".
+<http://example.com/base/supplier#Employee/136> <http://localhost:8001/supplier.owlemail> "lisa.hahn@example.com".
+<http://example.com/base/supplier#Employee/136> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "137".
+<http://example.com/base/supplier#Employee/137> <http://localhost:8001/supplier.owlusername> "MaxJäger".
+<http://example.com/base/supplier#Employee/137> <http://localhost:8001/supplier.owlemail> "max.jager@example.com".
+<http://example.com/base/supplier#Employee/137> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "138".
+<http://example.com/base/supplier#Employee/138> <http://localhost:8001/supplier.owlusername> "LenaScholz".
+<http://example.com/base/supplier#Employee/138> <http://localhost:8001/supplier.owlemail> "lena.scholz@example.com".
+<http://example.com/base/supplier#Employee/138> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "139".
+<http://example.com/base/supplier#Employee/139> <http://localhost:8001/supplier.owlusername> "TomHermann".
+<http://example.com/base/supplier#Employee/139> <http://localhost:8001/supplier.owlemail> "tom.hermann@example.com".
+<http://example.com/base/supplier#Employee/139> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "140".
+<http://example.com/base/supplier#Employee/140> <http://localhost:8001/supplier.owlusername> "SarahHofmann".
+<http://example.com/base/supplier#Employee/140> <http://localhost:8001/supplier.owlemail> "sarah.hofmann@example.com".
+<http://example.com/base/supplier#Employee/140> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "141".
+<http://example.com/base/supplier#Employee/141> <http://localhost:8001/supplier.owlusername> "MichaelMayer".
+<http://example.com/base/supplier#Employee/141> <http://localhost:8001/supplier.owlemail> "michael.mayer@example.com".
+<http://example.com/base/supplier#Employee/141> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "142".
+<http://example.com/base/supplier#Employee/142> <http://localhost:8001/supplier.owlusername> "JuliaWagner".
+<http://example.com/base/supplier#Employee/142> <http://localhost:8001/supplier.owlemail> "julia.wagner@example.com".
+<http://example.com/base/supplier#Employee/142> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "143".
+<http://example.com/base/supplier#Employee/143> <http://localhost:8001/supplier.owlusername> "DavidSchmitt".
+<http://example.com/base/supplier#Employee/143> <http://localhost:8001/supplier.owlemail> "david.schmitt@example.com".
+<http://example.com/base/supplier#Employee/143> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "144".
+<http://example.com/base/supplier#Employee/144> <http://localhost:8001/supplier.owlusername> "MariaLehmann".
+<http://example.com/base/supplier#Employee/144> <http://localhost:8001/supplier.owlemail> "maria.lehmann@example.com".
+<http://example.com/base/supplier#Employee/144> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "145".
+<http://example.com/base/supplier#Employee/145> <http://localhost:8001/supplier.owlusername> "KevinKeller".
+<http://example.com/base/supplier#Employee/145> <http://localhost:8001/supplier.owlemail> "kevin.keller@example.com".
+<http://example.com/base/supplier#Employee/145> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "146".
+<http://example.com/base/supplier#Employee/146> <http://localhost:8001/supplier.owlusername> "LauraSchreiber".
+<http://example.com/base/supplier#Employee/146> <http://localhost:8001/supplier.owlemail> "laura.schreiber@example.com".
+<http://example.com/base/supplier#Employee/146> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/147> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/147> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "147".
+<http://example.com/base/supplier#Employee/147> <http://localhost:8001/supplier.owlusername> "MarkusSchwarz".
+<http://example.com/base/supplier#Employee/147> <http://localhost:8001/supplier.owlemail> "markus.schwarz@example.com".
+<http://example.com/base/supplier#Employee/147> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "148".
+<http://example.com/base/supplier#Employee/148> <http://localhost:8001/supplier.owlusername> "SarahBecker".
+<http://example.com/base/supplier#Employee/148> <http://localhost:8001/supplier.owlemail> "sarah.becker@example.com".
+<http://example.com/base/supplier#Employee/148> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "149".
+<http://example.com/base/supplier#Employee/149> <http://localhost:8001/supplier.owlusername> "DanielMüller".
+<http://example.com/base/supplier#Employee/149> <http://localhost:8001/supplier.owlemail> "daniel.muller@example.com".
+<http://example.com/base/supplier#Employee/149> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "150".
+<http://example.com/base/supplier#Employee/150> <http://localhost:8001/supplier.owlusername> "AnnaKoch".
+<http://example.com/base/supplier#Employee/150> <http://localhost:8001/supplier.owlemail> "anna.koch@example.com".
+<http://example.com/base/supplier#Employee/150> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "151".
+<http://example.com/base/supplier#Employee/151> <http://localhost:8001/supplier.owlusername> "TomHoffmann".
+<http://example.com/base/supplier#Employee/151> <http://localhost:8001/supplier.owlemail> "tom.hoffmann@example.com".
+<http://example.com/base/supplier#Employee/151> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "152".
+<http://example.com/base/supplier#Employee/152> <http://localhost:8001/supplier.owlusername> "LisaBauer".
+<http://example.com/base/supplier#Employee/152> <http://localhost:8001/supplier.owlemail> "lisa.bauer@example.com".
+<http://example.com/base/supplier#Employee/152> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "153".
+<http://example.com/base/supplier#Employee/153> <http://localhost:8001/supplier.owlusername> "MaxScholz".
+<http://example.com/base/supplier#Employee/153> <http://localhost:8001/supplier.owlemail> "max.scholz@example.com".
+<http://example.com/base/supplier#Employee/153> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "154".
+<http://example.com/base/supplier#Employee/154> <http://localhost:8001/supplier.owlusername> "SarahMöller".
+<http://example.com/base/supplier#Employee/154> <http://localhost:8001/supplier.owlemail> "sarah.moller@example.com".
+<http://example.com/base/supplier#Employee/154> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "155".
+<http://example.com/base/supplier#Employee/155> <http://localhost:8001/supplier.owlusername> "DanielWagner".
+<http://example.com/base/supplier#Employee/155> <http://localhost:8001/supplier.owlemail> "daniel.wagner@example.com".
+<http://example.com/base/supplier#Employee/155> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "156".
+<http://example.com/base/supplier#Employee/156> <http://localhost:8001/supplier.owlusername> "LauraSchmidt".
+<http://example.com/base/supplier#Employee/156> <http://localhost:8001/supplier.owlemail> "laura.schmidt@example.com".
+<http://example.com/base/supplier#Employee/156> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "157".
+<http://example.com/base/supplier#Employee/157> <http://localhost:8001/supplier.owlusername> "KevinKrause".
+<http://example.com/base/supplier#Employee/157> <http://localhost:8001/supplier.owlemail> "kevin.krause@example.com".
+<http://example.com/base/supplier#Employee/157> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "158".
+<http://example.com/base/supplier#Employee/158> <http://localhost:8001/supplier.owlusername> "JuliaSchneider".
+<http://example.com/base/supplier#Employee/158> <http://localhost:8001/supplier.owlemail> "julia.schneider@example.com".
+<http://example.com/base/supplier#Employee/158> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "159".
+<http://example.com/base/supplier#Employee/159> <http://localhost:8001/supplier.owlusername> "MichaelLehmann".
+<http://example.com/base/supplier#Employee/159> <http://localhost:8001/supplier.owlemail> "michael.lehmann@example.com".
+<http://example.com/base/supplier#Employee/159> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "160".
+<http://example.com/base/supplier#Employee/160> <http://localhost:8001/supplier.owlusername> "LenaKeller".
+<http://example.com/base/supplier#Employee/160> <http://localhost:8001/supplier.owlemail> "lena.keller@example.com".
+<http://example.com/base/supplier#Employee/160> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "161".
+<http://example.com/base/supplier#Employee/161> <http://localhost:8001/supplier.owlusername> "SimonSchumacher".
+<http://example.com/base/supplier#Employee/161> <http://localhost:8001/supplier.owlemail> "simon.schumacher@example.com".
+<http://example.com/base/supplier#Employee/161> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "162".
+<http://example.com/base/supplier#Employee/162> <http://localhost:8001/supplier.owlusername> "CarolinFuchs".
+<http://example.com/base/supplier#Employee/162> <http://localhost:8001/supplier.owlemail> "carolin.fuchs@example.com".
+<http://example.com/base/supplier#Employee/162> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "163".
+<http://example.com/base/supplier#Employee/163> <http://localhost:8001/supplier.owlusername> "JanLudwig".
+<http://example.com/base/supplier#Employee/163> <http://localhost:8001/supplier.owlemail> "jan.ludwig@example.com".
+<http://example.com/base/supplier#Employee/163> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "164".
+<http://example.com/base/supplier#Employee/164> <http://localhost:8001/supplier.owlusername> "SophieBerger".
+<http://example.com/base/supplier#Employee/164> <http://localhost:8001/supplier.owlemail> "sophie.berger@example.com".
+<http://example.com/base/supplier#Employee/164> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "165".
+<http://example.com/base/supplier#Employee/165> <http://localhost:8001/supplier.owlusername> "SebastianMüller".
+<http://example.com/base/supplier#Employee/165> <http://localhost:8001/supplier.owlemail> "sebastian.muller@example.com".
+<http://example.com/base/supplier#Employee/165> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "166".
+<http://example.com/base/supplier#Employee/166> <http://localhost:8001/supplier.owlusername> "EmilyMeyer".
+<http://example.com/base/supplier#Employee/166> <http://localhost:8001/supplier.owlemail> "emily.meyer@example.com".
+<http://example.com/base/supplier#Employee/166> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "167".
+<http://example.com/base/supplier#Employee/167> <http://localhost:8001/supplier.owlusername> "BenjaminBeck".
+<http://example.com/base/supplier#Employee/167> <http://localhost:8001/supplier.owlemail> "benjamin.beck@example.com".
+<http://example.com/base/supplier#Employee/167> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "168".
+<http://example.com/base/supplier#Employee/168> <http://localhost:8001/supplier.owlusername> "LauraWolff".
+<http://example.com/base/supplier#Employee/168> <http://localhost:8001/supplier.owlemail> "laura.wolff@example.com".
+<http://example.com/base/supplier#Employee/168> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "169".
+<http://example.com/base/supplier#Employee/169> <http://localhost:8001/supplier.owlusername> "ChristianSchuster".
+<http://example.com/base/supplier#Employee/169> <http://localhost:8001/supplier.owlemail> "christian.schuster@example.com".
+<http://example.com/base/supplier#Employee/169> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "170".
+<http://example.com/base/supplier#Employee/170> <http://localhost:8001/supplier.owlusername> "NicoKönig".
+<http://example.com/base/supplier#Employee/170> <http://localhost:8001/supplier.owlemail> "nico.konig@example.com".
+<http://example.com/base/supplier#Employee/170> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#Employee/171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "171".
+<http://example.com/base/supplier#Employee/171> <http://localhost:8001/supplier.owlusername> "AnnaKraft".
+<http://example.com/base/supplier#Employee/171> <http://localhost:8001/supplier.owlemail> "anna.kraft@example.com".
+<http://example.com/base/supplier#Employee/171> <http://localhost:8001/supplier.owlcompany_role> "Employee".
+<http://example.com/base/supplier#Employee/172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "172".
+<http://example.com/base/supplier#Employee/172> <http://localhost:8001/supplier.owlusername> "FelixBachmann".
+<http://example.com/base/supplier#Employee/172> <http://localhost:8001/supplier.owlemail> "felix.bachmann@example.com".
+<http://example.com/base/supplier#Employee/172> <http://localhost:8001/supplier.owlcompany_role> "Manager".
+<http://example.com/base/supplier#Employee/173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier#Employee> .
+<http://example.com/base/supplier#Employee/173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "173".
+<http://example.com/base/supplier#Employee/173> <http://localhost:8001/supplier.owlusername> "LauraGraf".
+<http://example.com/base/supplier#Employee/173> <http://localhost:8001/supplier.owlemail> "laura.graf@example.com".
+<http://example.com/base/supplier#Employee/173> <http://localhost:8001/supplier.owlcompany_role> "Supervisor".
+<http://example.com/base/supplier#auctions/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Auctions> .
+<http://example.com/base/supplier#auctions/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Components".
+<http://example.com/base/supplier#auctions/1> <http://localhost:8001/supplier.owl#hasTitle> "Electronics Auction".
+<http://example.com/base/supplier#auctions/1> <http://localhost:8001/supplier.owl#hasStartDate> "2023-07-15".
+<http://example.com/base/supplier#auctions/1> <http://localhost:8001/supplier.owl#hasEndDate> "2023-07-31".
+<http://example.com/base/supplier#auctions/1> <http://localhost:8001/supplier.owl#hasCategory> "Electronics".
+<http://example.com/base/supplier#auctions/1> <http://localhost:8001/supplier.owl#hasAuctionStatus> "Open".
+<http://example.com/base/supplier#auctions/1> <http://localhost:8001/supplier.owl#hasReferencePrice> "10000.00".
+<http://example.com/base/supplier#auctions/1> <http://localhost:8001/supplier.owl#hasRegion> "North America".
+<http://example.com/base/supplier#auctions/1> <http://localhost:8001/supplier.owl#hasCurrency> "USD".
+<http://example.com/base/supplier#auctions/1> <http://localhost:8001/supplier.owl#hasProjectId> <http://example.com/base/supplier#projects/1>.
+<http://example.com/base/supplier#auctions/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Auctions> .
+<http://example.com/base/supplier#auctions/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Equipment".
+<http://example.com/base/supplier#auctions/2> <http://localhost:8001/supplier.owl#hasTitle> "Machinery Auction".
+<http://example.com/base/supplier#auctions/2> <http://localhost:8001/supplier.owl#hasStartDate> "2023-06-30".
+<http://example.com/base/supplier#auctions/2> <http://localhost:8001/supplier.owl#hasEndDate> "2023-07-15".
+<http://example.com/base/supplier#auctions/2> <http://localhost:8001/supplier.owl#hasCategory> "Machinery".
+<http://example.com/base/supplier#auctions/2> <http://localhost:8001/supplier.owl#hasAuctionStatus> "Closed".
+<http://example.com/base/supplier#auctions/2> <http://localhost:8001/supplier.owl#hasReferencePrice> "20000.00".
+<http://example.com/base/supplier#auctions/2> <http://localhost:8001/supplier.owl#hasRegion> "Europe".
+<http://example.com/base/supplier#auctions/2> <http://localhost:8001/supplier.owl#hasCurrency> "EUR".
+<http://example.com/base/supplier#auctions/2> <http://localhost:8001/supplier.owl#hasProjectId> <http://example.com/base/supplier#projects/2>.
+<http://example.com/base/supplier#auctions/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Auctions> .
+<http://example.com/base/supplier#auctions/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Raw Materials".
+<http://example.com/base/supplier#auctions/3> <http://localhost:8001/supplier.owl#hasTitle> "Chemicals Auction".
+<http://example.com/base/supplier#auctions/3> <http://localhost:8001/supplier.owl#hasStartDate> "2023-07-01".
+<http://example.com/base/supplier#auctions/3> <http://localhost:8001/supplier.owl#hasEndDate> "2023-07-31".
+<http://example.com/base/supplier#auctions/3> <http://localhost:8001/supplier.owl#hasCategory> "Chemicals".
+<http://example.com/base/supplier#auctions/3> <http://localhost:8001/supplier.owl#hasAuctionStatus> "Open".
+<http://example.com/base/supplier#auctions/3> <http://localhost:8001/supplier.owl#hasReferencePrice> "5000.00".
+<http://example.com/base/supplier#auctions/3> <http://localhost:8001/supplier.owl#hasRegion> "Asia".
+<http://example.com/base/supplier#auctions/3> <http://localhost:8001/supplier.owl#hasCurrency> "GBP".
+<http://example.com/base/supplier#auctions/3> <http://localhost:8001/supplier.owl#hasProjectId> <http://example.com/base/supplier#projects/3>.
+<http://example.com/base/supplier#auctions/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Auctions> .
+<http://example.com/base/supplier#auctions/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Components".
+<http://example.com/base/supplier#auctions/4> <http://localhost:8001/supplier.owl#hasTitle> "Automotive Auction".
+<http://example.com/base/supplier#auctions/4> <http://localhost:8001/supplier.owl#hasStartDate> "2023-08-15".
+<http://example.com/base/supplier#auctions/4> <http://localhost:8001/supplier.owl#hasEndDate> "2023-08-31".
+<http://example.com/base/supplier#auctions/4> <http://localhost:8001/supplier.owl#hasCategory> "Automotive".
+<http://example.com/base/supplier#auctions/4> <http://localhost:8001/supplier.owl#hasAuctionStatus> "Open".
+<http://example.com/base/supplier#auctions/4> <http://localhost:8001/supplier.owl#hasReferencePrice> "15000.00".
+<http://example.com/base/supplier#auctions/4> <http://localhost:8001/supplier.owl#hasRegion> "North America".
+<http://example.com/base/supplier#auctions/4> <http://localhost:8001/supplier.owl#hasCurrency> "USD".
+<http://example.com/base/supplier#auctions/4> <http://localhost:8001/supplier.owl#hasProjectId> <http://example.com/base/supplier#projects/1>.
+<http://example.com/base/supplier#auctions/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Auctions> .
+<http://example.com/base/supplier#auctions/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Components".
+<http://example.com/base/supplier#auctions/5> <http://localhost:8001/supplier.owl#hasTitle> "Electronics Auction 2".
+<http://example.com/base/supplier#auctions/5> <http://localhost:8001/supplier.owl#hasStartDate> "2023-07-15".
+<http://example.com/base/supplier#auctions/5> <http://localhost:8001/supplier.owl#hasEndDate> "2023-07-31".
+<http://example.com/base/supplier#auctions/5> <http://localhost:8001/supplier.owl#hasCategory> "Electronics".
+<http://example.com/base/supplier#auctions/5> <http://localhost:8001/supplier.owl#hasAuctionStatus> "Closed".
+<http://example.com/base/supplier#auctions/5> <http://localhost:8001/supplier.owl#hasReferencePrice> "12000.00".
+<http://example.com/base/supplier#auctions/5> <http://localhost:8001/supplier.owl#hasRegion> "Europe".
+<http://example.com/base/supplier#auctions/5> <http://localhost:8001/supplier.owl#hasCurrency> "EUR".
+<http://example.com/base/supplier#auctions/5> <http://localhost:8001/supplier.owl#hasProjectId> <http://example.com/base/supplier#projects/2>.
+<http://example.com/base/supplier#auctions/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Auctions> .
+<http://example.com/base/supplier#auctions/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Equipment".
+<http://example.com/base/supplier#auctions/6> <http://localhost:8001/supplier.owl#hasTitle> "Machinery Auction 2".
+<http://example.com/base/supplier#auctions/6> <http://localhost:8001/supplier.owl#hasStartDate> "2023-08-31".
+<http://example.com/base/supplier#auctions/6> <http://localhost:8001/supplier.owl#hasEndDate> "2023-09-15".
+<http://example.com/base/supplier#auctions/6> <http://localhost:8001/supplier.owl#hasCategory> "Machinery".
+<http://example.com/base/supplier#auctions/6> <http://localhost:8001/supplier.owl#hasAuctionStatus> "Open".
+<http://example.com/base/supplier#auctions/6> <http://localhost:8001/supplier.owl#hasReferencePrice> "25000.00".
+<http://example.com/base/supplier#auctions/6> <http://localhost:8001/supplier.owl#hasRegion> "Asia".
+<http://example.com/base/supplier#auctions/6> <http://localhost:8001/supplier.owl#hasCurrency> "USD".
+<http://example.com/base/supplier#auctions/6> <http://localhost:8001/supplier.owl#hasProjectId> <http://example.com/base/supplier#projects/3>.
+<http://example.com/base/supplier#auctions/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Auctions> .
+<http://example.com/base/supplier#auctions/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Raw Materials".
+<http://example.com/base/supplier#auctions/7> <http://localhost:8001/supplier.owl#hasTitle> "Chemicals Auction 2".
+<http://example.com/base/supplier#auctions/7> <http://localhost:8001/supplier.owl#hasStartDate> "2023-07-31".
+<http://example.com/base/supplier#auctions/7> <http://localhost:8001/supplier.owl#hasEndDate> "2023-08-15".
+<http://example.com/base/supplier#auctions/7> <http://localhost:8001/supplier.owl#hasCategory> "Chemicals".
+<http://example.com/base/supplier#auctions/7> <http://localhost:8001/supplier.owl#hasAuctionStatus> "Open".
+<http://example.com/base/supplier#auctions/7> <http://localhost:8001/supplier.owl#hasReferencePrice> "8000.00".
+<http://example.com/base/supplier#auctions/7> <http://localhost:8001/supplier.owl#hasRegion> "Europe".
+<http://example.com/base/supplier#auctions/7> <http://localhost:8001/supplier.owl#hasCurrency> "GBP".
+<http://example.com/base/supplier#auctions/7> <http://localhost:8001/supplier.owl#hasProjectId> <http://example.com/base/supplier#projects/1>.
+<http://example.com/base/supplier#auctions/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Auctions> .
+<http://example.com/base/supplier#auctions/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Components".
+<http://example.com/base/supplier#auctions/8> <http://localhost:8001/supplier.owl#hasTitle> "Automotive Auction 2".
+<http://example.com/base/supplier#auctions/8> <http://localhost:8001/supplier.owl#hasStartDate> "2023-08-15".
+<http://example.com/base/supplier#auctions/8> <http://localhost:8001/supplier.owl#hasEndDate> "2023-08-31".
+<http://example.com/base/supplier#auctions/8> <http://localhost:8001/supplier.owl#hasCategory> "Automotive".
+<http://example.com/base/supplier#auctions/8> <http://localhost:8001/supplier.owl#hasAuctionStatus> "Closed".
+<http://example.com/base/supplier#auctions/8> <http://localhost:8001/supplier.owl#hasReferencePrice> "18000.00".
+<http://example.com/base/supplier#auctions/8> <http://localhost:8001/supplier.owl#hasRegion> "North America".
+<http://example.com/base/supplier#auctions/8> <http://localhost:8001/supplier.owl#hasCurrency> "USD".
+<http://example.com/base/supplier#auctions/8> <http://localhost:8001/supplier.owl#hasProjectId> <http://example.com/base/supplier#projects/2>.
+<http://example.com/base/supplier#auctions/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Auctions> .
+<http://example.com/base/supplier#auctions/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Components".
+<http://example.com/base/supplier#auctions/9> <http://localhost:8001/supplier.owl#hasTitle> "Electronics Auction 3".
+<http://example.com/base/supplier#auctions/9> <http://localhost:8001/supplier.owl#hasStartDate> "2023-09-30".
+<http://example.com/base/supplier#auctions/9> <http://localhost:8001/supplier.owl#hasEndDate> "2023-10-15".
+<http://example.com/base/supplier#auctions/9> <http://localhost:8001/supplier.owl#hasCategory> "Electronics".
+<http://example.com/base/supplier#auctions/9> <http://localhost:8001/supplier.owl#hasAuctionStatus> "Open".
+<http://example.com/base/supplier#auctions/9> <http://localhost:8001/supplier.owl#hasReferencePrice> "9000.00".
+<http://example.com/base/supplier#auctions/9> <http://localhost:8001/supplier.owl#hasRegion> "Asia".
+<http://example.com/base/supplier#auctions/9> <http://localhost:8001/supplier.owl#hasCurrency> "EUR".
+<http://example.com/base/supplier#auctions/9> <http://localhost:8001/supplier.owl#hasProjectId> <http://example.com/base/supplier#projects/3>.
+<http://example.com/base/supplier#auctions/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Auctions> .
+<http://example.com/base/supplier#auctions/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Equipment".
+<http://example.com/base/supplier#auctions/10> <http://localhost:8001/supplier.owl#hasTitle> "Machinery Auction 3".
+<http://example.com/base/supplier#auctions/10> <http://localhost:8001/supplier.owl#hasStartDate> "2023-09-15".
+<http://example.com/base/supplier#auctions/10> <http://localhost:8001/supplier.owl#hasEndDate> "2023-09-30".
+<http://example.com/base/supplier#auctions/10> <http://localhost:8001/supplier.owl#hasCategory> "Machinery".
+<http://example.com/base/supplier#auctions/10> <http://localhost:8001/supplier.owl#hasAuctionStatus> "Open".
+<http://example.com/base/supplier#auctions/10> <http://localhost:8001/supplier.owl#hasReferencePrice> "30000.00".
+<http://example.com/base/supplier#auctions/10> <http://localhost:8001/supplier.owl#hasRegion> "Europe".
+<http://example.com/base/supplier#auctions/10> <http://localhost:8001/supplier.owl#hasCurrency> "USD".
+<http://example.com/base/supplier#auctions/10> <http://localhost:8001/supplier.owl#hasProjectId> <http://example.com/base/supplier#projects/1>.
+<http://example.com/base/supplier#contract/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlContract> .
+<http://example.com/base/supplier#contract/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-01-01".
+<http://example.com/base/supplier#contract/1> <http://localhost:8001/supplier.owlhasValidityEnd> "2025-12-31".
+<http://example.com/base/supplier#contract/1> <http://localhost:8001/supplier.owlhasContractName> "Supply Agreement".
+<http://example.com/base/supplier#contract/1> <http://localhost:8001/supplier.owlhasContractType> "Long-term".
+<http://example.com/base/supplier#contract/1> <http://localhost:8001/supplier.owlhasContractStatus> "Active".
+<http://example.com/base/supplier#contract/1> <http://localhost:8001/supplier.owlhasContractSummary> "This contract outlines the terms and conditions for the supply of goods/services between the parties.".
+<http://example.com/base/supplier#contract/1> <http://localhost:8001/supplier.owlhasSupplierId> <http://example.com/base/supplier#supplier/1>.
+<http://example.com/base/supplier#contract/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlContract> .
+<http://example.com/base/supplier#contract/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-01-01".
+<http://example.com/base/supplier#contract/2> <http://localhost:8001/supplier.owlhasValidityEnd> "2024-12-31".
+<http://example.com/base/supplier#contract/2> <http://localhost:8001/supplier.owlhasContractName> "Service Level Agreement".
+<http://example.com/base/supplier#contract/2> <http://localhost:8001/supplier.owlhasContractType> "Maintenance".
+<http://example.com/base/supplier#contract/2> <http://localhost:8001/supplier.owlhasContractStatus> "Active".
+<http://example.com/base/supplier#contract/2> <http://localhost:8001/supplier.owlhasContractSummary> "This contract defines the service levels and support commitments for the maintenance of equipment/software.".
+<http://example.com/base/supplier#contract/2> <http://localhost:8001/supplier.owlhasSupplierId> <http://example.com/base/supplier#supplier/2>.
+<http://example.com/base/supplier#contract/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlContract> .
+<http://example.com/base/supplier#contract/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2022-07-01".
+<http://example.com/base/supplier#contract/3> <http://localhost:8001/supplier.owlhasValidityEnd> "2023-06-30".
+<http://example.com/base/supplier#contract/3> <http://localhost:8001/supplier.owlhasContractName> "Consulting Services Contract".
+<http://example.com/base/supplier#contract/3> <http://localhost:8001/supplier.owlhasContractType> "Consulting".
+<http://example.com/base/supplier#contract/3> <http://localhost:8001/supplier.owlhasContractStatus> "Inactive".
+<http://example.com/base/supplier#contract/3> <http://localhost:8001/supplier.owlhasContractSummary> "This contract specifies the scope of consulting services to be provided and the associated deliverables.".
+<http://example.com/base/supplier#contract/3> <http://localhost:8001/supplier.owlhasSupplierId> <http://example.com/base/supplier#supplier/3>.
+<http://example.com/base/supplier#contract/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlContract> .
+<http://example.com/base/supplier#contract/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-01-01".
+<http://example.com/base/supplier#contract/4> <http://localhost:8001/supplier.owlhasValidityEnd> "2024-12-31".
+<http://example.com/base/supplier#contract/4> <http://localhost:8001/supplier.owlhasContractName> "Software License Agreement".
+<http://example.com/base/supplier#contract/4> <http://localhost:8001/supplier.owlhasContractType> "License".
+<http://example.com/base/supplier#contract/4> <http://localhost:8001/supplier.owlhasContractStatus> "Active".
+<http://example.com/base/supplier#contract/4> <http://localhost:8001/supplier.owlhasContractSummary> "This contract grants the licensee the right to use the software within the defined terms and limitations.".
+<http://example.com/base/supplier#contract/4> <http://localhost:8001/supplier.owlhasSupplierId> <http://example.com/base/supplier#supplier/4>.
+<http://example.com/base/supplier#contract/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlContract> .
+<http://example.com/base/supplier#contract/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-01-01".
+<http://example.com/base/supplier#contract/5> <http://localhost:8001/supplier.owlhasValidityEnd> "2025-12-31".
+<http://example.com/base/supplier#contract/5> <http://localhost:8001/supplier.owlhasContractName> "Product Distribution Agreement".
+<http://example.com/base/supplier#contract/5> <http://localhost:8001/supplier.owlhasContractType> "Distribution".
+<http://example.com/base/supplier#contract/5> <http://localhost:8001/supplier.owlhasContractStatus> "Active".
+<http://example.com/base/supplier#contract/5> <http://localhost:8001/supplier.owlhasContractSummary> "This contract establishes the terms for the distribution of products to various markets and territories.".
+<http://example.com/base/supplier#contract/5> <http://localhost:8001/supplier.owlhasSupplierId> <http://example.com/base/supplier#supplier/5>.
+<http://example.com/base/supplier#contract/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlContract> .
+<http://example.com/base/supplier#contract/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-01-01".
+<http://example.com/base/supplier#contract/6> <http://localhost:8001/supplier.owlhasValidityEnd> "2024-12-31".
+<http://example.com/base/supplier#contract/6> <http://localhost:8001/supplier.owlhasContractName> "Research Collaboration Agreement".
+<http://example.com/base/supplier#contract/6> <http://localhost:8001/supplier.owlhasContractType> "Research".
+<http://example.com/base/supplier#contract/6> <http://localhost:8001/supplier.owlhasContractStatus> "Active".
+<http://example.com/base/supplier#contract/6> <http://localhost:8001/supplier.owlhasContractSummary> "This contract outlines the collaborative research activities and the sharing of resources and findings.".
+<http://example.com/base/supplier#contract/6> <http://localhost:8001/supplier.owlhasSupplierId> <http://example.com/base/supplier#supplier/6>.
+<http://example.com/base/supplier#contract/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlContract> .
+<http://example.com/base/supplier#contract/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-01-01".
+<http://example.com/base/supplier#contract/7> <http://localhost:8001/supplier.owlhasValidityEnd> "2024-12-31".
+<http://example.com/base/supplier#contract/7> <http://localhost:8001/supplier.owlhasContractName> "Maintenance and Support Contract".
+<http://example.com/base/supplier#contract/7> <http://localhost:8001/supplier.owlhasContractType> "Maintenance".
+<http://example.com/base/supplier#contract/7> <http://localhost:8001/supplier.owlhasContractStatus> "Active".
+<http://example.com/base/supplier#contract/7> <http://localhost:8001/supplier.owlhasContractSummary> "This contract provides maintenance and technical support services for the specified equipment/systems.".
+<http://example.com/base/supplier#contract/7> <http://localhost:8001/supplier.owlhasSupplierId> <http://example.com/base/supplier#supplier/7>.
+<http://example.com/base/supplier#contract/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlContract> .
+<http://example.com/base/supplier#contract/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-01-01".
+<http://example.com/base/supplier#contract/8> <http://localhost:8001/supplier.owlhasValidityEnd> "2025-12-31".
+<http://example.com/base/supplier#contract/8> <http://localhost:8001/supplier.owlhasContractName> "Outsourcing Agreement".
+<http://example.com/base/supplier#contract/8> <http://localhost:8001/supplier.owlhasContractType> "Outsourcing".
+<http://example.com/base/supplier#contract/8> <http://localhost:8001/supplier.owlhasContractStatus> "Active".
+<http://example.com/base/supplier#contract/8> <http://localhost:8001/supplier.owlhasContractSummary> "This contract outlines the outsourcing of specific business functions to the service provider.".
+<http://example.com/base/supplier#contract/8> <http://localhost:8001/supplier.owlhasSupplierId> <http://example.com/base/supplier#supplier/8>.
+<http://example.com/base/supplier#contract/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlContract> .
+<http://example.com/base/supplier#contract/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2022-07-01".
+<http://example.com/base/supplier#contract/9> <http://localhost:8001/supplier.owlhasValidityEnd> "2023-06-30".
+<http://example.com/base/supplier#contract/9> <http://localhost:8001/supplier.owlhasContractName> "Marketing Services Agreement".
+<http://example.com/base/supplier#contract/9> <http://localhost:8001/supplier.owlhasContractType> "Marketing".
+<http://example.com/base/supplier#contract/9> <http://localhost:8001/supplier.owlhasContractStatus> "Inactive".
+<http://example.com/base/supplier#contract/9> <http://localhost:8001/supplier.owlhasContractSummary> "This contract defines the marketing services to be provided and the associated deliverables and timelines.".
+<http://example.com/base/supplier#contract/9> <http://localhost:8001/supplier.owlhasSupplierId> <http://example.com/base/supplier#supplier/9>.
+<http://example.com/base/supplier#contract/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlContract> .
+<http://example.com/base/supplier#contract/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-01-01".
+<http://example.com/base/supplier#contract/10> <http://localhost:8001/supplier.owlhasValidityEnd> "2024-12-31".
+<http://example.com/base/supplier#contract/10> <http://localhost:8001/supplier.owlhasContractName> "Supply Chain Management Contract".
+<http://example.com/base/supplier#contract/10> <http://localhost:8001/supplier.owlhasContractType> "Supply Chain".
+<http://example.com/base/supplier#contract/10> <http://localhost:8001/supplier.owlhasContractStatus> "Active".
+<http://example.com/base/supplier#contract/10> <http://localhost:8001/supplier.owlhasContractSummary> "This contract establishes the terms for the management of the supply chain and logistics operations.".
+<http://example.com/base/supplier#contract/10> <http://localhost:8001/supplier.owlhasSupplierId> <http://example.com/base/supplier#supplier/10>.
+<http://example.com/base/supplier#rfqs/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlRfqs> .
+<http://example.com/base/supplier#rfqs/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2020-01-01".
+<http://example.com/base/supplier#rfqs/1> <http://localhost:8001/supplier.owlhasMaterialGroup> "Equipment".
+<http://example.com/base/supplier#rfqs/1> <http://localhost:8001/supplier.owlhasRespondedSuppliers> "1".
+<http://example.com/base/supplier#rfqs/1> <http://localhost:8001/supplier.owlhasCurrency> "Currency 1".
+<http://example.com/base/supplier#rfqs/1> <http://localhost:8001/supplier.owlhasTitle> "Rfq 1".
+<http://example.com/base/supplier#rfqs/1> <http://localhost:8001/supplier.owlhasVolume> "1.00".
+<http://example.com/base/supplier#rfqs/1> <http://localhost:8001/supplier.owlhasCategory> "Category 1".
+<http://example.com/base/supplier#rfqs/1> <http://localhost:8001/supplier.owlhasRfqStatus> "Status 1".
+<http://example.com/base/supplier#rfqs/1> <http://localhost:8001/supplier.owlhasRegion> "North America".
+<http://example.com/base/supplier#rfqs/1> <http://localhost:8001/supplier.owlhasCreationDate> "2023-06-15".
+<http://example.com/base/supplier#rfqs/1> <http://localhost:8001/supplier.owlhasInvolvedSuppliers> "1".
+<http://example.com/base/supplier#rfqs/1> <http://localhost:8001/supplier.owlhasProjectId> <http://example.com/base/supplier#projects/2>.
+<http://example.com/base/supplier#rfqs/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlRfqs> .
+<http://example.com/base/supplier#rfqs/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-07-31".
+<http://example.com/base/supplier#rfqs/2> <http://localhost:8001/supplier.owlhasMaterialGroup> "Raw Materials".
+<http://example.com/base/supplier#rfqs/2> <http://localhost:8001/supplier.owlhasRespondedSuppliers> "3".
+<http://example.com/base/supplier#rfqs/2> <http://localhost:8001/supplier.owlhasCurrency> "GBP".
+<http://example.com/base/supplier#rfqs/2> <http://localhost:8001/supplier.owlhasTitle> "Request for Quote 3".
+<http://example.com/base/supplier#rfqs/2> <http://localhost:8001/supplier.owlhasVolume> "2000.00".
+<http://example.com/base/supplier#rfqs/2> <http://localhost:8001/supplier.owlhasCategory> "Chemicals".
+<http://example.com/base/supplier#rfqs/2> <http://localhost:8001/supplier.owlhasRfqStatus> "Open".
+<http://example.com/base/supplier#rfqs/2> <http://localhost:8001/supplier.owlhasRegion> "Asia".
+<http://example.com/base/supplier#rfqs/2> <http://localhost:8001/supplier.owlhasCreationDate> "2023-07-10".
+<http://example.com/base/supplier#rfqs/2> <http://localhost:8001/supplier.owlhasInvolvedSuppliers> "4".
+<http://example.com/base/supplier#rfqs/2> <http://localhost:8001/supplier.owlhasProjectId> <http://example.com/base/supplier#projects/3>.
+<http://example.com/base/supplier#rfqs/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlRfqs> .
+<http://example.com/base/supplier#rfqs/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-08-15".
+<http://example.com/base/supplier#rfqs/3> <http://localhost:8001/supplier.owlhasMaterialGroup> "Components".
+<http://example.com/base/supplier#rfqs/3> <http://localhost:8001/supplier.owlhasRespondedSuppliers> "4".
+<http://example.com/base/supplier#rfqs/3> <http://localhost:8001/supplier.owlhasCurrency> "USD".
+<http://example.com/base/supplier#rfqs/3> <http://localhost:8001/supplier.owlhasTitle> "Request for Quote 4".
+<http://example.com/base/supplier#rfqs/3> <http://localhost:8001/supplier.owlhasVolume> "800.00".
+<http://example.com/base/supplier#rfqs/3> <http://localhost:8001/supplier.owlhasCategory> "Automotive".
+<http://example.com/base/supplier#rfqs/3> <http://localhost:8001/supplier.owlhasRfqStatus> "Open".
+<http://example.com/base/supplier#rfqs/3> <http://localhost:8001/supplier.owlhasRegion> "Europe".
+<http://example.com/base/supplier#rfqs/3> <http://localhost:8001/supplier.owlhasCreationDate> "2023-07-20".
+<http://example.com/base/supplier#rfqs/3> <http://localhost:8001/supplier.owlhasInvolvedSuppliers> "6".
+<http://example.com/base/supplier#rfqs/3> <http://localhost:8001/supplier.owlhasProjectId> <http://example.com/base/supplier#projects/1>.
+<http://example.com/base/supplier#rfqs/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlRfqs> .
+<http://example.com/base/supplier#rfqs/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-07-15".
+<http://example.com/base/supplier#rfqs/4> <http://localhost:8001/supplier.owlhasMaterialGroup> "Components".
+<http://example.com/base/supplier#rfqs/4> <http://localhost:8001/supplier.owlhasRespondedSuppliers> "2".
+<http://example.com/base/supplier#rfqs/4> <http://localhost:8001/supplier.owlhasCurrency> "EUR".
+<http://example.com/base/supplier#rfqs/4> <http://localhost:8001/supplier.owlhasTitle> "Request for Quote 5".
+<http://example.com/base/supplier#rfqs/4> <http://localhost:8001/supplier.owlhasVolume> "1500.00".
+<http://example.com/base/supplier#rfqs/4> <http://localhost:8001/supplier.owlhasCategory> "Electronics".
+<http://example.com/base/supplier#rfqs/4> <http://localhost:8001/supplier.owlhasRfqStatus> "Closed".
+<http://example.com/base/supplier#rfqs/4> <http://localhost:8001/supplier.owlhasRegion> "North America".
+<http://example.com/base/supplier#rfqs/4> <http://localhost:8001/supplier.owlhasCreationDate> "2023-07-05".
+<http://example.com/base/supplier#rfqs/4> <http://localhost:8001/supplier.owlhasInvolvedSuppliers> "5".
+<http://example.com/base/supplier#rfqs/4> <http://localhost:8001/supplier.owlhasProjectId> <http://example.com/base/supplier#projects/2>.
+<http://example.com/base/supplier#rfqs/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlRfqs> .
+<http://example.com/base/supplier#rfqs/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-08-31".
+<http://example.com/base/supplier#rfqs/5> <http://localhost:8001/supplier.owlhasMaterialGroup> "Equipment".
+<http://example.com/base/supplier#rfqs/5> <http://localhost:8001/supplier.owlhasRespondedSuppliers> "1".
+<http://example.com/base/supplier#rfqs/5> <http://localhost:8001/supplier.owlhasCurrency> "USD".
+<http://example.com/base/supplier#rfqs/5> <http://localhost:8001/supplier.owlhasTitle> "Request for Quote 6".
+<http://example.com/base/supplier#rfqs/5> <http://localhost:8001/supplier.owlhasVolume> "300.00".
+<http://example.com/base/supplier#rfqs/5> <http://localhost:8001/supplier.owlhasCategory> "Machinery".
+<http://example.com/base/supplier#rfqs/5> <http://localhost:8001/supplier.owlhasRfqStatus> "Open".
+<http://example.com/base/supplier#rfqs/5> <http://localhost:8001/supplier.owlhasRegion> "Asia".
+<http://example.com/base/supplier#rfqs/5> <http://localhost:8001/supplier.owlhasCreationDate> "2023-08-10".
+<http://example.com/base/supplier#rfqs/5> <http://localhost:8001/supplier.owlhasInvolvedSuppliers> "3".
+<http://example.com/base/supplier#rfqs/5> <http://localhost:8001/supplier.owlhasProjectId> <http://example.com/base/supplier#projects/3>.
+<http://example.com/base/supplier#rfqs/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlRfqs> .
+<http://example.com/base/supplier#rfqs/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-07-31".
+<http://example.com/base/supplier#rfqs/6> <http://localhost:8001/supplier.owlhasMaterialGroup> "Raw Materials".
+<http://example.com/base/supplier#rfqs/6> <http://localhost:8001/supplier.owlhasRespondedSuppliers> "3".
+<http://example.com/base/supplier#rfqs/6> <http://localhost:8001/supplier.owlhasCurrency> "GBP".
+<http://example.com/base/supplier#rfqs/6> <http://localhost:8001/supplier.owlhasTitle> "Request for Quote 7".
+<http://example.com/base/supplier#rfqs/6> <http://localhost:8001/supplier.owlhasVolume> "1200.00".
+<http://example.com/base/supplier#rfqs/6> <http://localhost:8001/supplier.owlhasCategory> "Chemicals".
+<http://example.com/base/supplier#rfqs/6> <http://localhost:8001/supplier.owlhasRfqStatus> "Open".
+<http://example.com/base/supplier#rfqs/6> <http://localhost:8001/supplier.owlhasRegion> "Europe".
+<http://example.com/base/supplier#rfqs/6> <http://localhost:8001/supplier.owlhasCreationDate> "2023-07-15".
+<http://example.com/base/supplier#rfqs/6> <http://localhost:8001/supplier.owlhasInvolvedSuppliers> "4".
+<http://example.com/base/supplier#rfqs/6> <http://localhost:8001/supplier.owlhasProjectId> <http://example.com/base/supplier#projects/1>.
+<http://example.com/base/supplier#rfqs/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlRfqs> .
+<http://example.com/base/supplier#rfqs/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-08-15".
+<http://example.com/base/supplier#rfqs/7> <http://localhost:8001/supplier.owlhasMaterialGroup> "Components".
+<http://example.com/base/supplier#rfqs/7> <http://localhost:8001/supplier.owlhasRespondedSuppliers> "4".
+<http://example.com/base/supplier#rfqs/7> <http://localhost:8001/supplier.owlhasCurrency> "USD".
+<http://example.com/base/supplier#rfqs/7> <http://localhost:8001/supplier.owlhasTitle> "Request for Quote 8".
+<http://example.com/base/supplier#rfqs/7> <http://localhost:8001/supplier.owlhasVolume> "500.00".
+<http://example.com/base/supplier#rfqs/7> <http://localhost:8001/supplier.owlhasCategory> "Automotive".
+<http://example.com/base/supplier#rfqs/7> <http://localhost:8001/supplier.owlhasRfqStatus> "Closed".
+<http://example.com/base/supplier#rfqs/7> <http://localhost:8001/supplier.owlhasRegion> "North America".
+<http://example.com/base/supplier#rfqs/7> <http://localhost:8001/supplier.owlhasCreationDate> "2023-08-01".
+<http://example.com/base/supplier#rfqs/7> <http://localhost:8001/supplier.owlhasInvolvedSuppliers> "6".
+<http://example.com/base/supplier#rfqs/7> <http://localhost:8001/supplier.owlhasProjectId> <http://example.com/base/supplier#projects/2>.
+<http://example.com/base/supplier#rfqs/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlRfqs> .
+<http://example.com/base/supplier#rfqs/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-09-30".
+<http://example.com/base/supplier#rfqs/8> <http://localhost:8001/supplier.owlhasMaterialGroup> "Components".
+<http://example.com/base/supplier#rfqs/8> <http://localhost:8001/supplier.owlhasRespondedSuppliers> "2".
+<http://example.com/base/supplier#rfqs/8> <http://localhost:8001/supplier.owlhasCurrency> "EUR".
+<http://example.com/base/supplier#rfqs/8> <http://localhost:8001/supplier.owlhasTitle> "Request for Quote 9".
+<http://example.com/base/supplier#rfqs/8> <http://localhost:8001/supplier.owlhasVolume> "1800.00".
+<http://example.com/base/supplier#rfqs/8> <http://localhost:8001/supplier.owlhasCategory> "Electronics".
+<http://example.com/base/supplier#rfqs/8> <http://localhost:8001/supplier.owlhasRfqStatus> "Open".
+<http://example.com/base/supplier#rfqs/8> <http://localhost:8001/supplier.owlhasRegion> "Asia".
+<http://example.com/base/supplier#rfqs/8> <http://localhost:8001/supplier.owlhasCreationDate> "2023-09-10".
+<http://example.com/base/supplier#rfqs/8> <http://localhost:8001/supplier.owlhasInvolvedSuppliers> "5".
+<http://example.com/base/supplier#rfqs/8> <http://localhost:8001/supplier.owlhasProjectId> <http://example.com/base/supplier#projects/3>.
+<http://example.com/base/supplier#rfqs/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owlRfqs> .
+<http://example.com/base/supplier#rfqs/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-09-15".
+<http://example.com/base/supplier#rfqs/9> <http://localhost:8001/supplier.owlhasMaterialGroup> "Equipment".
+<http://example.com/base/supplier#rfqs/9> <http://localhost:8001/supplier.owlhasRespondedSuppliers> "1".
+<http://example.com/base/supplier#rfqs/9> <http://localhost:8001/supplier.owlhasCurrency> "USD".
+<http://example.com/base/supplier#rfqs/9> <http://localhost:8001/supplier.owlhasTitle> "Request for Quote 10".
+<http://example.com/base/supplier#rfqs/9> <http://localhost:8001/supplier.owlhasVolume> "400.00".
+<http://example.com/base/supplier#rfqs/9> <http://localhost:8001/supplier.owlhasCategory> "Machinery".
+<http://example.com/base/supplier#rfqs/9> <http://localhost:8001/supplier.owlhasRfqStatus> "Open".
+<http://example.com/base/supplier#rfqs/9> <http://localhost:8001/supplier.owlhasRegion> "Europe".
+<http://example.com/base/supplier#rfqs/9> <http://localhost:8001/supplier.owlhasCreationDate> "2023-08-20".
+<http://example.com/base/supplier#rfqs/9> <http://localhost:8001/supplier.owlhasInvolvedSuppliers> "3".
+<http://example.com/base/supplier#rfqs/9> <http://localhost:8001/supplier.owlhasProjectId> <http://example.com/base/supplier#projects/1>.
+<http://example.com/base/university#student/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Anna".
+<http://example.com/base/university#student/1> <http://www.w3.org/2006/vcard/ns#family-name> "Schmidt".
+<http://example.com/base/university#student/1> <http://localhost:8001/university.owl#matriculationNumber> "S001".
+<http://example.com/base/university#student/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Lukas".
+<http://example.com/base/university#student/2> <http://www.w3.org/2006/vcard/ns#family-name> "Müller".
+<http://example.com/base/university#student/2> <http://localhost:8001/university.owl#matriculationNumber> "S002".
+<http://example.com/base/university#student/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Sophie".
+<http://example.com/base/university#student/3> <http://www.w3.org/2006/vcard/ns#family-name> "Schneider".
+<http://example.com/base/university#student/3> <http://localhost:8001/university.owl#matriculationNumber> "S003".
+<http://example.com/base/university#student/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Leon".
+<http://example.com/base/university#student/4> <http://www.w3.org/2006/vcard/ns#family-name> "Fischer".
+<http://example.com/base/university#student/4> <http://localhost:8001/university.owl#matriculationNumber> "S004".
+<http://example.com/base/university#student/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Mia".
+<http://example.com/base/university#student/5> <http://www.w3.org/2006/vcard/ns#family-name> "Weber".
+<http://example.com/base/university#student/5> <http://localhost:8001/university.owl#matriculationNumber> "S005".
+<http://example.com/base/university#student/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Julian".
+<http://example.com/base/university#student/6> <http://www.w3.org/2006/vcard/ns#family-name> "Wagner".
+<http://example.com/base/university#student/6> <http://localhost:8001/university.owl#matriculationNumber> "S006".
+<http://example.com/base/university#student/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Emma".
+<http://example.com/base/university#student/7> <http://www.w3.org/2006/vcard/ns#family-name> "Hofmann".
+<http://example.com/base/university#student/7> <http://localhost:8001/university.owl#matriculationNumber> "S007".
+<http://example.com/base/university#student/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Finn".
+<http://example.com/base/university#student/8> <http://www.w3.org/2006/vcard/ns#family-name> "Koch".
+<http://example.com/base/university#student/8> <http://localhost:8001/university.owl#matriculationNumber> "S008".
+<http://example.com/base/university#student/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Hannah".
+<http://example.com/base/university#student/9> <http://www.w3.org/2006/vcard/ns#family-name> "Bauer".
+<http://example.com/base/university#student/9> <http://localhost:8001/university.owl#matriculationNumber> "S009".
+<http://example.com/base/university#student/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Ben".
+<http://example.com/base/university#student/10> <http://www.w3.org/2006/vcard/ns#family-name> "Schulz".
+<http://example.com/base/university#student/10> <http://localhost:8001/university.owl#matriculationNumber> "S010".
+<http://example.com/base/university#student/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Lena".
+<http://example.com/base/university#student/11> <http://www.w3.org/2006/vcard/ns#family-name> "Becker".
+<http://example.com/base/university#student/11> <http://localhost:8001/university.owl#matriculationNumber> "S011".
+<http://example.com/base/university#student/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Paul".
+<http://example.com/base/university#student/12> <http://www.w3.org/2006/vcard/ns#family-name> "Hoffmann".
+<http://example.com/base/university#student/12> <http://localhost:8001/university.owl#matriculationNumber> "S012".
+<http://example.com/base/university#student/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Emilia".
+<http://example.com/base/university#student/13> <http://www.w3.org/2006/vcard/ns#family-name> "Richter".
+<http://example.com/base/university#student/13> <http://localhost:8001/university.owl#matriculationNumber> "S013".
+<http://example.com/base/university#student/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Max".
+<http://example.com/base/university#student/14> <http://www.w3.org/2006/vcard/ns#family-name> "Schmitt".
+<http://example.com/base/university#student/14> <http://localhost:8001/university.owl#matriculationNumber> "S014".
+<http://example.com/base/university#student/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Mila".
+<http://example.com/base/university#student/15> <http://www.w3.org/2006/vcard/ns#family-name> "Neumann".
+<http://example.com/base/university#student/15> <http://localhost:8001/university.owl#matriculationNumber> "S015".
+<http://example.com/base/university#student/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "David".
+<http://example.com/base/university#student/16> <http://www.w3.org/2006/vcard/ns#family-name> "Krüger".
+<http://example.com/base/university#student/16> <http://localhost:8001/university.owl#matriculationNumber> "S016".
+<http://example.com/base/university#student/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Sophia".
+<http://example.com/base/university#student/17> <http://www.w3.org/2006/vcard/ns#family-name> "Hermann".
+<http://example.com/base/university#student/17> <http://localhost:8001/university.owl#matriculationNumber> "S017".
+<http://example.com/base/university#student/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Elias".
+<http://example.com/base/university#student/18> <http://www.w3.org/2006/vcard/ns#family-name> "Walter".
+<http://example.com/base/university#student/18> <http://localhost:8001/university.owl#matriculationNumber> "S018".
+<http://example.com/base/university#student/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Maja".
+<http://example.com/base/university#student/19> <http://www.w3.org/2006/vcard/ns#family-name> "Lange".
+<http://example.com/base/university#student/19> <http://localhost:8001/university.owl#matriculationNumber> "S019".
+<http://example.com/base/university#student/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Simon".
+<http://example.com/base/university#student/20> <http://www.w3.org/2006/vcard/ns#family-name> "Graf".
+<http://example.com/base/university#student/20> <http://localhost:8001/university.owl#matriculationNumber> "S020".
+<http://example.com/base/university#student/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Laura".
+<http://example.com/base/university#student/21> <http://www.w3.org/2006/vcard/ns#family-name> "Roth".
+<http://example.com/base/university#student/21> <http://localhost:8001/university.owl#matriculationNumber> "S021".
+<http://example.com/base/university#student/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Felix".
+<http://example.com/base/university#student/22> <http://www.w3.org/2006/vcard/ns#family-name> "Schulze".
+<http://example.com/base/university#student/22> <http://localhost:8001/university.owl#matriculationNumber> "S022".
+<http://example.com/base/university#student/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Clara".
+<http://example.com/base/university#student/23> <http://www.w3.org/2006/vcard/ns#family-name> "Kaiser".
+<http://example.com/base/university#student/23> <http://localhost:8001/university.owl#matriculationNumber> "S023".
+<http://example.com/base/university#student/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Jonas".
+<http://example.com/base/university#student/24> <http://www.w3.org/2006/vcard/ns#family-name> "Meier".
+<http://example.com/base/university#student/24> <http://localhost:8001/university.owl#matriculationNumber> "S024".
+<http://example.com/base/university#student/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Emily".
+<http://example.com/base/university#student/25> <http://www.w3.org/2006/vcard/ns#family-name> "Vogel".
+<http://example.com/base/university#student/25> <http://localhost:8001/university.owl#matriculationNumber> "S025".
+<http://example.com/base/university#student/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Anton".
+<http://example.com/base/university#student/26> <http://www.w3.org/2006/vcard/ns#family-name> "Hansen".
+<http://example.com/base/university#student/26> <http://localhost:8001/university.owl#matriculationNumber> "S026".
+<http://example.com/base/university#student/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Lara".
+<http://example.com/base/university#student/27> <http://www.w3.org/2006/vcard/ns#family-name> "Schreiber".
+<http://example.com/base/university#student/27> <http://localhost:8001/university.owl#matriculationNumber> "S027".
+<http://example.com/base/university#student/28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Luca".
+<http://example.com/base/university#student/28> <http://www.w3.org/2006/vcard/ns#family-name> "Engel".
+<http://example.com/base/university#student/28> <http://localhost:8001/university.owl#matriculationNumber> "S028".
+<http://example.com/base/university#student/29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Lea".
+<http://example.com/base/university#student/29> <http://www.w3.org/2006/vcard/ns#family-name> "Kuhn".
+<http://example.com/base/university#student/29> <http://localhost:8001/university.owl#matriculationNumber> "S029".
+<http://example.com/base/university#student/30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Tim".
+<http://example.com/base/university#student/30> <http://www.w3.org/2006/vcard/ns#family-name> "Hartmann".
+<http://example.com/base/university#student/30> <http://localhost:8001/university.owl#matriculationNumber> "S030".
+<http://example.com/base/university#student/31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Mara".
+<http://example.com/base/university#student/31> <http://www.w3.org/2006/vcard/ns#family-name> "Huber".
+<http://example.com/base/university#student/31> <http://localhost:8001/university.owl#matriculationNumber> "S031".
+<http://example.com/base/university#student/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Philipp".
+<http://example.com/base/university#student/32> <http://www.w3.org/2006/vcard/ns#family-name> "Bergmann".
+<http://example.com/base/university#student/32> <http://localhost:8001/university.owl#matriculationNumber> "S032".
+<http://example.com/base/university#student/33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Sarah".
+<http://example.com/base/university#student/33> <http://www.w3.org/2006/vcard/ns#family-name> "Pohl".
+<http://example.com/base/university#student/33> <http://localhost:8001/university.owl#matriculationNumber> "S033".
+<http://example.com/base/university#student/34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Tom".
+<http://example.com/base/university#student/34> <http://www.w3.org/2006/vcard/ns#family-name> "Schubert".
+<http://example.com/base/university#student/34> <http://localhost:8001/university.owl#matriculationNumber> "S034".
+<http://example.com/base/university#student/35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Johanna".
+<http://example.com/base/university#student/35> <http://www.w3.org/2006/vcard/ns#family-name> "Krause".
+<http://example.com/base/university#student/35> <http://localhost:8001/university.owl#matriculationNumber> "S035".
+<http://example.com/base/university#student/36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Matthias".
+<http://example.com/base/university#student/36> <http://www.w3.org/2006/vcard/ns#family-name> "Keller".
+<http://example.com/base/university#student/36> <http://localhost:8001/university.owl#matriculationNumber> "S036".
+<http://example.com/base/university#student/37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Maria".
+<http://example.com/base/university#student/37> <http://www.w3.org/2006/vcard/ns#family-name> "Wolff".
+<http://example.com/base/university#student/37> <http://localhost:8001/university.owl#matriculationNumber> "S037".
+<http://example.com/base/university#student/38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Jonathan".
+<http://example.com/base/university#student/38> <http://www.w3.org/2006/vcard/ns#family-name> "Sauer".
+<http://example.com/base/university#student/38> <http://localhost:8001/university.owl#matriculationNumber> "S038".
+<http://example.com/base/university#student/39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Emilie".
+<http://example.com/base/university#student/39> <http://www.w3.org/2006/vcard/ns#family-name> "Günther".
+<http://example.com/base/university#student/39> <http://localhost:8001/university.owl#matriculationNumber> "S039".
+<http://example.com/base/university#student/40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://example.com/base/university#student/40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Nico".
+<http://example.com/base/university#student/40> <http://www.w3.org/2006/vcard/ns#family-name> "Frank".
+<http://example.com/base/university#student/40> <http://localhost:8001/university.owl#matriculationNumber> "S040".
+<http://example.com/base/supplier#supplier_address/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Berlin".
+<http://example.com/base/supplier#supplier_address/1> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/1> <http://localhost:8001/supplier.owl#hasZipCode> "10115".
+<http://example.com/base/supplier#supplier_address/1> <http://localhost:8001/supplier.owl#hasStreet> "Musterstraße 1".
+<http://example.com/base/supplier#supplier_address/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Munich".
+<http://example.com/base/supplier#supplier_address/2> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/2> <http://localhost:8001/supplier.owl#hasZipCode> "80331".
+<http://example.com/base/supplier#supplier_address/2> <http://localhost:8001/supplier.owl#hasStreet> "Hauptstraße 2".
+<http://example.com/base/supplier#supplier_address/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Hamburg".
+<http://example.com/base/supplier#supplier_address/3> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/3> <http://localhost:8001/supplier.owl#hasZipCode> "20095".
+<http://example.com/base/supplier#supplier_address/3> <http://localhost:8001/supplier.owl#hasStreet> "Lindenallee 3".
+<http://example.com/base/supplier#supplier_address/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Stuttgart".
+<http://example.com/base/supplier#supplier_address/4> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/4> <http://localhost:8001/supplier.owl#hasZipCode> "70173".
+<http://example.com/base/supplier#supplier_address/4> <http://localhost:8001/supplier.owl#hasStreet> "Schlossplatz 4".
+<http://example.com/base/supplier#supplier_address/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Cologne".
+<http://example.com/base/supplier#supplier_address/5> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/5> <http://localhost:8001/supplier.owl#hasZipCode> "50667".
+<http://example.com/base/supplier#supplier_address/5> <http://localhost:8001/supplier.owl#hasStreet> "Am Markt 5".
+<http://example.com/base/supplier#supplier_address/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Frankfurt".
+<http://example.com/base/supplier#supplier_address/6> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/6> <http://localhost:8001/supplier.owl#hasZipCode> "60329".
+<http://example.com/base/supplier#supplier_address/6> <http://localhost:8001/supplier.owl#hasStreet> "Bahnhofstraße 6".
+<http://example.com/base/supplier#supplier_address/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Dresden".
+<http://example.com/base/supplier#supplier_address/7> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/7> <http://localhost:8001/supplier.owl#hasZipCode> "01067".
+<http://example.com/base/supplier#supplier_address/7> <http://localhost:8001/supplier.owl#hasStreet> "Schillerstraße 7".
+<http://example.com/base/supplier#supplier_address/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Hannover".
+<http://example.com/base/supplier#supplier_address/8> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/8> <http://localhost:8001/supplier.owl#hasZipCode> "30159".
+<http://example.com/base/supplier#supplier_address/8> <http://localhost:8001/supplier.owl#hasStreet> "Rathausplatz 8".
+<http://example.com/base/supplier#supplier_address/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Düsseldorf".
+<http://example.com/base/supplier#supplier_address/9> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/9> <http://localhost:8001/supplier.owl#hasZipCode> "40221".
+<http://example.com/base/supplier#supplier_address/9> <http://localhost:8001/supplier.owl#hasStreet> "Kirchweg 9".
+<http://example.com/base/supplier#supplier_address/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Leipzig".
+<http://example.com/base/supplier#supplier_address/10> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/10> <http://localhost:8001/supplier.owl#hasZipCode> "04109".
+<http://example.com/base/supplier#supplier_address/10> <http://localhost:8001/supplier.owl#hasStreet> "Goethestraße 10".
+<http://example.com/base/supplier#supplier_address/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Bremen".
+<http://example.com/base/supplier#supplier_address/11> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/11> <http://localhost:8001/supplier.owl#hasZipCode> "28195".
+<http://example.com/base/supplier#supplier_address/11> <http://localhost:8001/supplier.owl#hasStreet> "Bismarckstraße 11".
+<http://example.com/base/supplier#supplier_address/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Nuremberg".
+<http://example.com/base/supplier#supplier_address/12> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/12> <http://localhost:8001/supplier.owl#hasZipCode> "90459".
+<http://example.com/base/supplier#supplier_address/12> <http://localhost:8001/supplier.owl#hasStreet> "Rosenweg 12".
+<http://example.com/base/supplier#supplier_address/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Dortmund".
+<http://example.com/base/supplier#supplier_address/13> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/13> <http://localhost:8001/supplier.owl#hasZipCode> "44137".
+<http://example.com/base/supplier#supplier_address/13> <http://localhost:8001/supplier.owl#hasStreet> "Mühlenstraße 13".
+<http://example.com/base/supplier#supplier_address/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Essen".
+<http://example.com/base/supplier#supplier_address/14> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/14> <http://localhost:8001/supplier.owl#hasZipCode> "45130".
+<http://example.com/base/supplier#supplier_address/14> <http://localhost:8001/supplier.owl#hasStreet> "Parkstraße 14".
+<http://example.com/base/supplier#supplier_address/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Halle".
+<http://example.com/base/supplier#supplier_address/15> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/15> <http://localhost:8001/supplier.owl#hasZipCode> "06110".
+<http://example.com/base/supplier#supplier_address/15> <http://localhost:8001/supplier.owl#hasStreet> "Friedrichstraße 15".
+<http://example.com/base/supplier#supplier_address/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Mannheim".
+<http://example.com/base/supplier#supplier_address/16> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/16> <http://localhost:8001/supplier.owl#hasZipCode> "68161".
+<http://example.com/base/supplier#supplier_address/16> <http://localhost:8001/supplier.owl#hasStreet> "Schlossallee 16".
+<http://example.com/base/supplier#supplier_address/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Hamburg".
+<http://example.com/base/supplier#supplier_address/17> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/17> <http://localhost:8001/supplier.owl#hasZipCode> "20359".
+<http://example.com/base/supplier#supplier_address/17> <http://localhost:8001/supplier.owl#hasStreet> "Hermannplatz 17".
+<http://example.com/base/supplier#supplier_address/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Düsseldorf".
+<http://example.com/base/supplier#supplier_address/18> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/18> <http://localhost:8001/supplier.owl#hasZipCode> "40217".
+<http://example.com/base/supplier#supplier_address/18> <http://localhost:8001/supplier.owl#hasStreet> "Wilhelmstraße 18".
+<http://example.com/base/supplier#supplier_address/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Bonn".
+<http://example.com/base/supplier#supplier_address/19> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/19> <http://localhost:8001/supplier.owl#hasZipCode> "53111".
+<http://example.com/base/supplier#supplier_address/19> <http://localhost:8001/supplier.owl#hasStreet> "Marktplatz 19".
+<http://example.com/base/supplier#supplier_address/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Cologne".
+<http://example.com/base/supplier#supplier_address/20> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/20> <http://localhost:8001/supplier.owl#hasZipCode> "50939".
+<http://example.com/base/supplier#supplier_address/20> <http://localhost:8001/supplier.owl#hasStreet> "Lange Straße 20".
+<http://example.com/base/supplier#supplier_address/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Frankfurt".
+<http://example.com/base/supplier#supplier_address/21> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/21> <http://localhost:8001/supplier.owl#hasZipCode> "60487".
+<http://example.com/base/supplier#supplier_address/21> <http://localhost:8001/supplier.owl#hasStreet> "Neue Gasse 21".
+<http://example.com/base/supplier#supplier_address/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Leipzig".
+<http://example.com/base/supplier#supplier_address/22> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/22> <http://localhost:8001/supplier.owl#hasZipCode> "04275".
+<http://example.com/base/supplier#supplier_address/22> <http://localhost:8001/supplier.owl#hasStreet> "August-Bebel-Straße 22".
+<http://example.com/base/supplier#supplier_address/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Hamburg".
+<http://example.com/base/supplier#supplier_address/23> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/23> <http://localhost:8001/supplier.owl#hasZipCode> "20539".
+<http://example.com/base/supplier#supplier_address/23> <http://localhost:8001/supplier.owl#hasStreet> "Hafenstraße 23".
+<http://example.com/base/supplier#supplier_address/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Munich".
+<http://example.com/base/supplier#supplier_address/24> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/24> <http://localhost:8001/supplier.owl#hasZipCode> "80331".
+<http://example.com/base/supplier#supplier_address/24> <http://localhost:8001/supplier.owl#hasStreet> "Rathausgasse 24".
+<http://example.com/base/supplier#supplier_address/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Berlin".
+<http://example.com/base/supplier#supplier_address/25> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/25> <http://localhost:8001/supplier.owl#hasZipCode> "10119".
+<http://example.com/base/supplier#supplier_address/25> <http://localhost:8001/supplier.owl#hasStreet> "Am See 25".
+<http://example.com/base/supplier#supplier_address/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Stuttgart".
+<http://example.com/base/supplier#supplier_address/26> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/26> <http://localhost:8001/supplier.owl#hasZipCode> "70173".
+<http://example.com/base/supplier#supplier_address/26> <http://localhost:8001/supplier.owl#hasStreet> "Schillerplatz 26".
+<http://example.com/base/supplier#supplier_address/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Dresden".
+<http://example.com/base/supplier#supplier_address/27> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/27> <http://localhost:8001/supplier.owl#hasZipCode> "01067".
+<http://example.com/base/supplier#supplier_address/27> <http://localhost:8001/supplier.owl#hasStreet> "Goetheallee 27".
+<http://example.com/base/supplier#supplier_address/28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Hannover".
+<http://example.com/base/supplier#supplier_address/28> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/28> <http://localhost:8001/supplier.owl#hasZipCode> "30175".
+<http://example.com/base/supplier#supplier_address/28> <http://localhost:8001/supplier.owl#hasStreet> "Königsstraße 28".
+<http://example.com/base/supplier#supplier_address/29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Cologne".
+<http://example.com/base/supplier#supplier_address/29> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/29> <http://localhost:8001/supplier.owl#hasZipCode> "50667".
+<http://example.com/base/supplier#supplier_address/29> <http://localhost:8001/supplier.owl#hasStreet> "Bahnhofplatz 29".
+<http://example.com/base/supplier#supplier_address/30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier_Address> .
+<http://example.com/base/supplier#supplier_address/30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Munich".
+<http://example.com/base/supplier#supplier_address/30> <http://localhost:8001/supplier.owl#hasCountry> "Germany".
+<http://example.com/base/supplier#supplier_address/30> <http://localhost:8001/supplier.owl#hasZipCode> "80538".
+<http://example.com/base/supplier#supplier_address/30> <http://localhost:8001/supplier.owl#hasStreet> "Friedenstraße 30".
+<http://example.com/base/supplier#projects/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Projects> .
+<http://example.com/base/supplier#projects/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-02-15".
+<http://example.com/base/supplier#projects/1> <http://localhost:8001/supplier.owl#hasProjectId> "1".
+<http://example.com/base/supplier#projects/1> <http://localhost:8001/supplier.owl#hasTitle> "Product Development Initiative".
+<http://example.com/base/supplier#projects/1> <http://localhost:8001/supplier.owl#hasProjectStatus> "In Progress".
+<http://example.com/base/supplier#projects/1> <http://localhost:8001/supplier.owl#hasCategory> "Research and Development".
+<http://example.com/base/supplier#projects/1> <http://localhost:8001/supplier.owl#hasSupplierId> <http://example.com/base/supplier#supplier/1>.
+<http://example.com/base/supplier#projects/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Projects> .
+<http://example.com/base/supplier#projects/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-03-01".
+<http://example.com/base/supplier#projects/2> <http://localhost:8001/supplier.owl#hasProjectId> "2".
+<http://example.com/base/supplier#projects/2> <http://localhost:8001/supplier.owl#hasTitle> "IT Infrastructure Upgrade".
+<http://example.com/base/supplier#projects/2> <http://localhost:8001/supplier.owl#hasProjectStatus> "Pending".
+<http://example.com/base/supplier#projects/2> <http://localhost:8001/supplier.owl#hasCategory> "Technology".
+<http://example.com/base/supplier#projects/2> <http://localhost:8001/supplier.owl#hasSupplierId> <http://example.com/base/supplier#supplier/2>.
+<http://example.com/base/supplier#projects/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Projects> .
+<http://example.com/base/supplier#projects/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-01-10".
+<http://example.com/base/supplier#projects/3> <http://localhost:8001/supplier.owl#hasProjectId> "3".
+<http://example.com/base/supplier#projects/3> <http://localhost:8001/supplier.owl#hasTitle> "Marketing Campaign Launch".
+<http://example.com/base/supplier#projects/3> <http://localhost:8001/supplier.owl#hasProjectStatus> "Completed".
+<http://example.com/base/supplier#projects/3> <http://localhost:8001/supplier.owl#hasCategory> "Marketing".
+<http://example.com/base/supplier#projects/3> <http://localhost:8001/supplier.owl#hasSupplierId> <http://example.com/base/supplier#supplier/3>.
+<http://example.com/base/supplier#projects/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Projects> .
+<http://example.com/base/supplier#projects/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-02-28".
+<http://example.com/base/supplier#projects/4> <http://localhost:8001/supplier.owl#hasProjectId> "4".
+<http://example.com/base/supplier#projects/4> <http://localhost:8001/supplier.owl#hasTitle> "Supply Chain Optimization".
+<http://example.com/base/supplier#projects/4> <http://localhost:8001/supplier.owl#hasProjectStatus> "In Progress".
+<http://example.com/base/supplier#projects/4> <http://localhost:8001/supplier.owl#hasCategory> "Operations".
+<http://example.com/base/supplier#projects/4> <http://localhost:8001/supplier.owl#hasSupplierId> <http://example.com/base/supplier#supplier/4>.
+<http://example.com/base/supplier#projects/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Projects> .
+<http://example.com/base/supplier#projects/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-04-15".
+<http://example.com/base/supplier#projects/5> <http://localhost:8001/supplier.owl#hasProjectId> "5".
+<http://example.com/base/supplier#projects/5> <http://localhost:8001/supplier.owl#hasTitle> "New Product Launch".
+<http://example.com/base/supplier#projects/5> <http://localhost:8001/supplier.owl#hasProjectStatus> "Planned".
+<http://example.com/base/supplier#projects/5> <http://localhost:8001/supplier.owl#hasCategory> "Sales".
+<http://example.com/base/supplier#projects/5> <http://localhost:8001/supplier.owl#hasSupplierId> <http://example.com/base/supplier#supplier/5>.
+<http://example.com/base/supplier#projects/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Projects> .
+<http://example.com/base/supplier#projects/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-03-10".
+<http://example.com/base/supplier#projects/6> <http://localhost:8001/supplier.owl#hasProjectId> "6".
+<http://example.com/base/supplier#projects/6> <http://localhost:8001/supplier.owl#hasTitle> "Business Process Automation".
+<http://example.com/base/supplier#projects/6> <http://localhost:8001/supplier.owl#hasProjectStatus> "In Progress".
+<http://example.com/base/supplier#projects/6> <http://localhost:8001/supplier.owl#hasCategory> "Operations".
+<http://example.com/base/supplier#projects/6> <http://localhost:8001/supplier.owl#hasSupplierId> <http://example.com/base/supplier#supplier/6>.
+<http://example.com/base/supplier#projects/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Projects> .
+<http://example.com/base/supplier#projects/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-05-01".
+<http://example.com/base/supplier#projects/7> <http://localhost:8001/supplier.owl#hasProjectId> "7".
+<http://example.com/base/supplier#projects/7> <http://localhost:8001/supplier.owl#hasTitle> "Customer Experience Enhancement".
+<http://example.com/base/supplier#projects/7> <http://localhost:8001/supplier.owl#hasProjectStatus> "Planned".
+<http://example.com/base/supplier#projects/7> <http://localhost:8001/supplier.owl#hasCategory> "Sales".
+<http://example.com/base/supplier#projects/7> <http://localhost:8001/supplier.owl#hasSupplierId> <http://example.com/base/supplier#supplier/7>.
+<http://example.com/base/supplier#projects/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Projects> .
+<http://example.com/base/supplier#projects/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-06-01".
+<http://example.com/base/supplier#projects/8> <http://localhost:8001/supplier.owl#hasProjectId> "8".
+<http://example.com/base/supplier#projects/8> <http://localhost:8001/supplier.owl#hasTitle> "Market Expansion Strategy".
+<http://example.com/base/supplier#projects/8> <http://localhost:8001/supplier.owl#hasProjectStatus> "Pending".
+<http://example.com/base/supplier#projects/8> <http://localhost:8001/supplier.owl#hasCategory> "Business Development".
+<http://example.com/base/supplier#projects/8> <http://localhost:8001/supplier.owl#hasSupplierId> <http://example.com/base/supplier#supplier/8>.
+<http://example.com/base/supplier#projects/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Projects> .
+<http://example.com/base/supplier#projects/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-02-15".
+<http://example.com/base/supplier#projects/9> <http://localhost:8001/supplier.owl#hasProjectId> "9".
+<http://example.com/base/supplier#projects/9> <http://localhost:8001/supplier.owl#hasTitle> "Quality Assurance Improvement".
+<http://example.com/base/supplier#projects/9> <http://localhost:8001/supplier.owl#hasProjectStatus> "In Progress".
+<http://example.com/base/supplier#projects/9> <http://localhost:8001/supplier.owl#hasCategory> "Operations".
+<http://example.com/base/supplier#projects/9> <http://localhost:8001/supplier.owl#hasSupplierId> <http://example.com/base/supplier#supplier/9>.
+<http://example.com/base/supplier#projects/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Projects> .
+<http://example.com/base/supplier#projects/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "2023-03-01".
+<http://example.com/base/supplier#projects/10> <http://localhost:8001/supplier.owl#hasProjectId> "10".
+<http://example.com/base/supplier#projects/10> <http://localhost:8001/supplier.owl#hasTitle> "Research and Innovation Project".
+<http://example.com/base/supplier#projects/10> <http://localhost:8001/supplier.owl#hasProjectStatus> "In Progress".
+<http://example.com/base/supplier#projects/10> <http://localhost:8001/supplier.owl#hasCategory> "Research and Development".
+<http://example.com/base/supplier#projects/10> <http://localhost:8001/supplier.owl#hasSupplierId> <http://example.com/base/supplier#supplier/10>.
+<http://example.com/base/supplier#supplier/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "ABC Corporation".
+<http://example.com/base/supplier#supplier/1> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 1".
+<http://example.com/base/supplier#supplier/1> <http://localhost:8001/supplier.owlhasTopParent> "Yes".
+<http://example.com/base/supplier#supplier/1> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/1>.
+<http://example.com/base/supplier#supplier/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "XYZ Enterprises".
+<http://example.com/base/supplier#supplier/2> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 2".
+<http://example.com/base/supplier#supplier/2> <http://localhost:8001/supplier.owlhasTopParent> "No".
+<http://example.com/base/supplier#supplier/2> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/2>.
+<http://example.com/base/supplier#supplier/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Global Solutions Ltd.".
+<http://example.com/base/supplier#supplier/3> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 3".
+<http://example.com/base/supplier#supplier/3> <http://localhost:8001/supplier.owlhasTopParent> "No".
+<http://example.com/base/supplier#supplier/3> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/3>.
+<http://example.com/base/supplier#supplier/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Dynamic Industries".
+<http://example.com/base/supplier#supplier/4> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 1".
+<http://example.com/base/supplier#supplier/4> <http://localhost:8001/supplier.owlhasTopParent> "Yes".
+<http://example.com/base/supplier#supplier/4> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/4>.
+<http://example.com/base/supplier#supplier/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Innovative Technologies".
+<http://example.com/base/supplier#supplier/5> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 2".
+<http://example.com/base/supplier#supplier/5> <http://localhost:8001/supplier.owlhasTopParent> "No".
+<http://example.com/base/supplier#supplier/5> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/5>.
+<http://example.com/base/supplier#supplier/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Prime Manufacturing".
+<http://example.com/base/supplier#supplier/6> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 2".
+<http://example.com/base/supplier#supplier/6> <http://localhost:8001/supplier.owlhasTopParent> "No".
+<http://example.com/base/supplier#supplier/6> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/6>.
+<http://example.com/base/supplier#supplier/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Elite Systems".
+<http://example.com/base/supplier#supplier/7> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 3".
+<http://example.com/base/supplier#supplier/7> <http://localhost:8001/supplier.owlhasTopParent> "No".
+<http://example.com/base/supplier#supplier/7> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/7>.
+<http://example.com/base/supplier#supplier/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "GlobeTrade GmbH".
+<http://example.com/base/supplier#supplier/8> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 1".
+<http://example.com/base/supplier#supplier/8> <http://localhost:8001/supplier.owlhasTopParent> "Yes".
+<http://example.com/base/supplier#supplier/8> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/8>.
+<http://example.com/base/supplier#supplier/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "EuroTech Solutions".
+<http://example.com/base/supplier#supplier/9> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 2".
+<http://example.com/base/supplier#supplier/9> <http://localhost:8001/supplier.owlhasTopParent> "No".
+<http://example.com/base/supplier#supplier/9> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/9>.
+<http://example.com/base/supplier#supplier/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Advanced Materials".
+<http://example.com/base/supplier#supplier/10> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 2".
+<http://example.com/base/supplier#supplier/10> <http://localhost:8001/supplier.owlhasTopParent> "No".
+<http://example.com/base/supplier#supplier/10> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/10>.
+<http://example.com/base/supplier#supplier/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "TechGenius GmbH".
+<http://example.com/base/supplier#supplier/11> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 3".
+<http://example.com/base/supplier#supplier/11> <http://localhost:8001/supplier.owlhasTopParent> "No".
+<http://example.com/base/supplier#supplier/11> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/11>.
+<http://example.com/base/supplier#supplier/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Global Connect AG".
+<http://example.com/base/supplier#supplier/12> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 1".
+<http://example.com/base/supplier#supplier/12> <http://localhost:8001/supplier.owlhasTopParent> "Yes".
+<http://example.com/base/supplier#supplier/12> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/12>.
+<http://example.com/base/supplier#supplier/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Precision Engineering".
+<http://example.com/base/supplier#supplier/13> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 2".
+<http://example.com/base/supplier#supplier/13> <http://localhost:8001/supplier.owlhasTopParent> "No".
+<http://example.com/base/supplier#supplier/13> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/13>.
+<http://example.com/base/supplier#supplier/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "NexTech Systems".
+<http://example.com/base/supplier#supplier/14> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 2".
+<http://example.com/base/supplier#supplier/14> <http://localhost:8001/supplier.owlhasTopParent> "No".
+<http://example.com/base/supplier#supplier/14> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/14>.
+<http://example.com/base/supplier#supplier/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Infinite Solutions".
+<http://example.com/base/supplier#supplier/15> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 3".
+<http://example.com/base/supplier#supplier/15> <http://localhost:8001/supplier.owlhasTopParent> "No".
+<http://example.com/base/supplier#supplier/15> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/15>.
+<http://example.com/base/supplier#supplier/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Starlight GmbH".
+<http://example.com/base/supplier#supplier/16> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 1".
+<http://example.com/base/supplier#supplier/16> <http://localhost:8001/supplier.owlhasTopParent> "Yes".
+<http://example.com/base/supplier#supplier/16> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/16>.
+<http://example.com/base/supplier#supplier/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Swift Automation".
+<http://example.com/base/supplier#supplier/17> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 2".
+<http://example.com/base/supplier#supplier/17> <http://localhost:8001/supplier.owlhasTopParent> "No".
+<http://example.com/base/supplier#supplier/17> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/17>.
+<http://example.com/base/supplier#supplier/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "PowerTech GmbH".
+<http://example.com/base/supplier#supplier/18> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 2".
+<http://example.com/base/supplier#supplier/18> <http://localhost:8001/supplier.owlhasTopParent> "No".
+<http://example.com/base/supplier#supplier/18> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/18>.
+<http://example.com/base/supplier#supplier/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "TechTronics".
+<http://example.com/base/supplier#supplier/19> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 3".
+<http://example.com/base/supplier#supplier/19> <http://localhost:8001/supplier.owlhasTopParent> "No".
+<http://example.com/base/supplier#supplier/19> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/19>.
+<http://example.com/base/supplier#supplier/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/supplier.owl#Supplier> .
+<http://example.com/base/supplier#supplier/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Visionary Solutions".
+<http://example.com/base/supplier#supplier/20> <http://localhost:8001/supplier.owl#hasPyramidRank> "Tier 1".
+<http://example.com/base/supplier#supplier/20> <http://localhost:8001/supplier.owlhasTopParent> "Yes".
+<http://example.com/base/supplier#supplier/20> <http://localhost:8001/supplier.owl#hasAddressId> <http://example.com/base/supplier#supplier_address/20>.

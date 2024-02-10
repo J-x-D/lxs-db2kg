@@ -1,0 +1,22 @@
+@prefix ns1: <http://www.w3.org/ns/r2rml#> .
+@prefix ns2: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ns3: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+
+<http://localhost:8001/university/student/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://localhost:8001/university/student/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Alice".
+<http://localhost:8001/university/student/1> <http://xmlns.com/foaf/0.1/lastName> "Johnson".
+<http://localhost:8001/university/student/1> <http://localhost:8001/university.owl#matriculationNumber> "S001".
+<http://localhost:8001/university/student/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Student> .
+<http://localhost:8001/university/student/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Bob".
+<http://localhost:8001/university/student/2> <http://xmlns.com/foaf/0.1/lastName> "Williams".
+<http://localhost:8001/university/student/2> <http://localhost:8001/university.owl#matriculationNumber> "S002".
+<http://localhost:8001/university#Faculty/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Faculty> .
+<http://localhost:8001/university#Faculty/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Faculty of Science".
+<http://localhost:8001/university#Faculty/1> <http://xmlns.com/foaf/0.1/id> "1".
+<http://localhost:8001/university#Faculty/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Faculty> .
+<http://localhost:8001/university#Faculty/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Faculty of Arts".
+<http://localhost:8001/university#Faculty/2> <http://xmlns.com/foaf/0.1/id> "2".
+<http://localhost:8001/university#Grade/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Grade> .
+<http://localhost:8001/university#Grade/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "3.50".
+<http://localhost:8001/university#Grade/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:8001/university.owl#Grade> .
+<http://localhost:8001/university#Grade/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "4.20".
