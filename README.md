@@ -1,4 +1,4 @@
-Text2KG is an application developed by my students and me during my PhD. More details will follow soon.
+DB2KG is an application developed by my students and me during my PhD. More details will follow soon.
 
 # LXS DB to KG (MonoRepo)
 
