@@ -1,6 +1,6 @@
-export type ExtractedTextResponse = {
+export interface ExtractedTextResponse {
   id?: string;
   title?: string;
-  text: string;
+  text?: string;
   error?: string;
-};
+}

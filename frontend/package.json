@@ -46,7 +46,7 @@
     "next-remove-imports": "^1.0.12",
     "nodemailer": "^6.9.8",
     "openai": "^3.3.0",
-    "pdf2json": "^3.0.5",
+    "pdf2json": "^4.0.0",
     "pg": "^8.11.3",
     "pg-connection-string": "^2.6.2",
     "prismjs": "^1.29.0",

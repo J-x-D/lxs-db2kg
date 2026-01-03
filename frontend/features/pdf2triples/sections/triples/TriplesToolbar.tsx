@@ -42,7 +42,7 @@ function RightSide() {
   );
 }
 
-export default function TextInputToolbar() {
+export default function TriplesToolbar() {
   return (
     <Stack
       direction="row"

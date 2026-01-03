@@ -28,7 +28,7 @@ export default async function handler(
     const pdfBuffer = Buffer.from(response.data);
 
     const pdfParser = new PDFParser();
-    pdfParser.on("pdfParser_dataError", (errData: string) => {
+    pdfParser.on("pdfParser_dataError", (errData: Error | { parserError: Error }) => {
       console.error(errData);
       return res
         .status(500)

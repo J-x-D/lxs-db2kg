@@ -1,63 +1,20 @@
-"use client";
+import { Stack } from "@mui/material";
+import React from "react";
 import ToolbarGroup from "components/ui-components/CustomToolbar/ToolbarGroup";
-import React, { useEffect, useRef } from "react";
-import ImportPdf from "./components/toolbar/ImportPdf/ImportPdf";
-import { Stack, Tooltip, Typography } from "@mui/material";
-import { useStore } from "store/store";
-import DeletePdf from "./components/toolbar/DeletePdf/DeletePdf";
-import Overflow from "./components/toolbar/OverflowMenu/Overflow";
-import { isElementOverflowing } from "../../utils/layout/isElementOverflowing";
 
-function LeftSection() {
+function LeftSide() {
   return (
-    <ToolbarGroup minWidth="max-content" height="42px">
-      <ImportPdf />
-    </ToolbarGroup>
+    <>
+      {/* Add content-related toolbar items here if needed */}
+    </>
   );
 }
 
-function MiddleSection() {
-  const { pdf2triplesGlobalPdf: pdf } = useStore();
-  const titleEl = useRef<HTMLElement>(null);
-  const [isTitleOverflowing, setIsTitleOverflowing] = React.useState(false);
-
-  const title = pdf?.title;
-
-  useEffect(() => {
-    if (titleEl?.current)
-      setIsTitleOverflowing(isElementOverflowing(titleEl.current));
-  }, [title]);
-
-  if (!title) return <></>;
-
+function RightSide() {
   return (
-    <Tooltip title={!isTitleOverflowing ? title : ""}>
-      <Typography
-        variant="h6"
-        ref={titleEl}
-        sx={{
-          overflow: "hidden",
-          textOverflow: "ellipsis",
-          whiteSpace: "nowrap",
-          margin: "0 1rem",
-        }}
-      >
-        {title}
-      </Typography>
-    </Tooltip>
-  );
-}
-
-function RightSection() {
-  return (
-    <Stack direction="row" gap={2}>
-      <ToolbarGroup minWidth="max-content" height="42px">
-        <DeletePdf />
-      </ToolbarGroup>
-      <ToolbarGroup minWidth="max-content" height="42px">
-        <Overflow />
-      </ToolbarGroup>
-    </Stack>
+    <>
+      {/* Add content-related toolbar items here if needed */}
+    </>
   );
 }
 
@@ -67,11 +24,15 @@ export default function TextInputToolbar() {
       direction="row"
       justifyContent={"space-between"}
       alignItems={"center"}
+      gap={2}
       width={"100%"}
     >
-      <LeftSection />
-      <MiddleSection />
-      <RightSection />
+      <Stack direction="row" gap={2}>
+        <LeftSide />
+      </Stack>
+      <Stack direction="row" alignItems={"center"} gap={2}>
+        <RightSide />
+      </Stack>
     </Stack>
   );
 }

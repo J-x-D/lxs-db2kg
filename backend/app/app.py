@@ -22,7 +22,6 @@ from routes.symbolic.json_to_turtle import json_to_turtle_blueprint
 from routes.symbolic.run_rml_mapper import run_rml_mapper_blueprint
 from routes.symbolic.update_predicate import update_predicate_blueprint
 from routes.symbolic.verify_predicate import verify_predicate_blueprint
-from routes.symbolic.pdf_create_triples import pdf_create_triples_blueprint
 from routes.symbolic.is_backend_running import is_backend_running_blueprint
 from routes.symbolic.process_ontology import process_ontology_blueprint
 from routes.symbolic.get_ontology_class import get_ontology_class_blueprint
@@ -60,7 +59,6 @@ app.register_blueprint(json_to_turtle_blueprint)
 app.register_blueprint(run_rml_mapper_blueprint)
 app.register_blueprint(update_predicate_blueprint)
 app.register_blueprint(verify_predicate_blueprint)
-app.register_blueprint(pdf_create_triples_blueprint)
 app.register_blueprint(is_backend_running_blueprint)
 app.register_blueprint(process_ontology_blueprint)
 app.register_blueprint(calc_confidence_score_blueprint)

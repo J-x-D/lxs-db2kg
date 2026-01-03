@@ -63,10 +63,6 @@ services:
       - NEXT_PUBLIC_BACKEND_URL=http://localhost:8000
       - MY_PASSWORD=${MY_PASSWORD:-}
       - MY_EMAIL=${MY_EMAIL:-}
-    volumes:
-      - ./frontend:/app
-      - /app/node_modules
-      - /app/.next
     depends_on:
       - backend
     networks:

@@ -71,7 +71,7 @@ export default function Loading({
   textSent: ExtractedTextResponse;
 }) {
   const [timeRemaining, setTimeRemaining] = React.useState<number>(
-    estimateTimeRemaining(textSent.text.length),
+    estimateTimeRemaining(textSent.text?.length ?? 0),
   );
 
   useEffect(() => {
@@ -82,7 +82,7 @@ export default function Loading({
 
   const val =
     100 -
-    (timeRemaining / estimateTimeRemaining(textSent.text.length) + 30) * 100; // 30 seconds buffer
+    (timeRemaining / estimateTimeRemaining(textSent.text?.length ?? 0) + 30) * 100; // 30 seconds buffer
 
   if (val <= 0) return <LinearProgress />;
 

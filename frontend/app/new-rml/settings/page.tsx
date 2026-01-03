@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import {
   Paper,
   Box,
@@ -24,7 +24,7 @@ import GuidanceInfoAlert from "components/Guidance/GuidanceInfoAlert/GuidanceInf
 import defineStepSettings from "src/utils/defineStepSettings";
 import { useSearchParams } from "next/navigation";
 
-export default function Settings() {
+function SettingsContent() {
   const searchParams = useSearchParams();
   const tab = searchParams?.get("tab");
   //   const { query }: { query: { tab?: number } } = router;
@@ -257,5 +257,13 @@ export default function Settings() {
         </Paper>
       </Container>
     </Box>
+  );
+}
+
+export default function Settings() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <SettingsContent />
+    </Suspense>
   );
 }

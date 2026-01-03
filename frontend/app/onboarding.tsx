@@ -17,7 +17,7 @@ import ReactPlayer from "react-player";
 const VIDEO_URL = "https://youtu.be/Y3SgVePJApI";
 
 export default function Onboarding() {
-  const steps = ["Introduction", "Your task", "Afterwards"];
+  const steps = ["Introduction", "Your task", "Get Started"];
   const router = useRouter();
   const [currentStep, setCurrentStep] = useState(steps[0]);
   const [isStarting, setIsStarting] = useState(false);
@@ -71,9 +71,7 @@ export default function Onboarding() {
         {
           0: (
             <StepContent title="Introduction" handleGoNext={handleGoNext}>
-              First of all, <b>thank you</b> for participating in our study and
-              using the LXS application. This application is part of our current
-              research project and aims to facilitate the Knowledge Graph
+              Welcome to the LXS application. This application aims to facilitate the Knowledge Graph
               creation process for non-experts.
               <br />
               The application is still in development and therefore not all
@@ -112,23 +110,13 @@ export default function Onboarding() {
           ),
           2: (
             <StepContent
-              title="Afterwards"
+              title="Get Started"
               handleGoNext={handleStart}
               handleGoBack={handleGoBack}
               isLastStep
               isPrimaryButtonLoading={isStarting}
             >
-              After you have finished the task, we would like to ask you to fill
-              out a short{" "}
-              <MuiLink
-                target="_blank"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfvRpZVR5-wfVy04kiT4L_kz_FGp54na_N-RGn8wbKAyBSebg/viewform?usp=sf_link"
-              >
-                questionnaire
-              </MuiLink>
-              . This will help us to improve the application and gain insights.
-              We will display the questionnaire after you have finished the
-              task.
+              You're all set! Click the button below to start creating your Knowledge Graph.
             </StepContent>
           ),
         }[steps.indexOf(currentStep)]

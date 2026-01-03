@@ -188,8 +188,7 @@ export function AutoEmailSend({ page }: ContactFormProps) {
         )}
         {status === "success" && (
           <Typography>
-            Your results have been sent! Thank you for participating in our
-            study. Thank you! 🎉
+            Your results have been sent successfully! 🎉
           </Typography>
         )}
       </Stack>
