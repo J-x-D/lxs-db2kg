@@ -7,6 +7,7 @@ module.exports = removeImports({
 const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
+  output: 'standalone',
   rewrites: async () => {
     return [
       {
@@ -14,7 +15,9 @@ const nextConfig = {
         destination:
           process.env.NODE_ENV === "development"
             ? "http://0.0.0.0:8000/api/:path*"
-            : "http://51.116.135.160:8000/:path*",
+            : process.env.NEXT_PUBLIC_BACKEND_URL 
+              ? `${process.env.NEXT_PUBLIC_BACKEND_URL}/:path*`
+              : "http://backend:80/:path*",
       },
     ];
   },

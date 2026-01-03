@@ -4,7 +4,6 @@ import os
 from flask import Blueprint, jsonify, request
 from dotenv import load_dotenv
 import json
-from routes.neural.solve_not_in_text import solve_not_in_text
 
 load_dotenv()
 

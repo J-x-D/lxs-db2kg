@@ -24,12 +24,8 @@ from routes.symbolic.update_predicate import update_predicate_blueprint
 from routes.symbolic.verify_predicate import verify_predicate_blueprint
 from routes.symbolic.pdf_create_triples import pdf_create_triples_blueprint
 from routes.symbolic.is_backend_running import is_backend_running_blueprint
-from routes.neural.solve_coreferences import solve_coref_blueprint
-from routes.neural.solve_not_in_text import solve_not_in_text_blueprint
 from routes.symbolic.process_ontology import process_ontology_blueprint
-from routes.symbolic.get_ontology_class import get_classes_blueprint
-from routes.neural.topics import topics_blueprint
-from routes.neural.execute import execute_blueprint
+from routes.symbolic.get_ontology_class import get_ontology_class_blueprint
 from routes.symbolic.calc_confidence_score import calc_confidence_score_blueprint
 
 load_dotenv()
@@ -66,11 +62,7 @@ app.register_blueprint(update_predicate_blueprint)
 app.register_blueprint(verify_predicate_blueprint)
 app.register_blueprint(pdf_create_triples_blueprint)
 app.register_blueprint(is_backend_running_blueprint)
-app.register_blueprint(solve_coref_blueprint)
-app.register_blueprint(solve_not_in_text_blueprint)
 app.register_blueprint(process_ontology_blueprint)
-app.register_blueprint(topics_blueprint)
-app.register_blueprint(execute_blueprint)
 app.register_blueprint(calc_confidence_score_blueprint)
 
 connection_string = os.getenv("CONNECTION_STRING")

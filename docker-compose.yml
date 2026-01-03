@@ -1,0 +1,82 @@
+version: "3.8"
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15
+    container_name: lxs-db2kg-postgres
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_USER=sa
+      - POSTGRES_PASSWORD=YourStrong!Passw0rd
+      - POSTGRES_DB=db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/app/scripts/init.sql:/docker-entrypoint-initdb.d/create_schemas.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U sa -d db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - lxs-network
+
+  # Backend Flask Application
+  backend:
+    build:
+      context: ./backend/app
+      dockerfile: Dockerfile
+      target: builder
+    container_name: lxs-db2kg-backend
+    ports:
+      - "8000:80"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - OPENAI_ORGANIZATION=${OPENAI_ORGANIZATION:-}
+      - CONNECTION_STRING=postgresql://sa:YourStrong!Passw0rd@postgres:5432/db
+      - FLASK_APP=app.py
+      - FLASK_ENV=production
+    volumes:
+      - ./backend/app:/app
+      - ./backend/ontology.owl:/app/ontology.owl
+    depends_on:
+      postgres:
+        condition: service_healthy
+    stop_signal: SIGINT
+    networks:
+      - lxs-network
+    restart: unless-stopped
+
+  # Frontend Next.js Application
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_BACKEND_URL=http://localhost:8000
+    container_name: lxs-db2kg-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_BACKEND_URL=http://localhost:8000
+      - MY_PASSWORD=${MY_PASSWORD:-}
+      - MY_EMAIL=${MY_EMAIL:-}
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+    depends_on:
+      - backend
+    networks:
+      - lxs-network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  lxs-network:
+    driver: bridge
